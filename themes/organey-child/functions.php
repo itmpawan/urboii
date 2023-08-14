@@ -1,5 +1,5 @@
 <?php
 /**
- * Theme functions and definitions.
+ * Theme functions and definitions and managed by PK
  */
 		 
