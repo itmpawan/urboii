@@ -1,0 +1,4611 @@
+# <!=Copyright (C) 2023 HP
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Organey 2.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/organey\n"
+"POT-Creation-Date: 2023-07-08 02:00:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/customizer/class-customize.php:315
+msgid "2"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: includes/class-elementor.php:42
+msgid "Organey Addons"
+msgstr ""
+
+#: includes/class-elementor.php:49
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-elementor.php:86
+msgid "Organey Icon"
+msgstr ""
+
+#: includes/class-elementor.php:102
+msgid "Open Global Settings"
+msgstr ""
+
+#: includes/class-main.php:180
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/class-main.php:181
+msgid "Handheld Menu"
+msgstr ""
+
+#: includes/class-main.php:182
+msgid "Vertical Menu"
+msgstr ""
+
+#: includes/class-main.php:235
+msgid "Sidebar Archive"
+msgstr ""
+
+#: includes/class-main.php:240
+msgid "Sidebar Single Post"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:335
+#: includes/merlin/class-import.php:364
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:337
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:377
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:912
+#: includes/class-tgm-plugin-activation.php:2618
+#: includes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1019
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2067
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2358
+#: includes/merlin/class-merlin.php:1126
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2406
+#: includes/elementor/widgets/nav-menu.php:236
+#: includes/elementor/widgets/product-tab.php:502
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2477
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2481
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2485
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2634
+#: includes/elementor/parallax-section.php:78
+#: includes/elementor/widgets/brand.php:115
+#: includes/elementor/widgets/handheld-footer.php:52
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2688
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2693
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2699
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+#: includes/merlin/class-import.php:332 includes/merlin/class-import.php:333
+#: includes/merlin/class-import.php:334
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2811
+#: includes/elementor/widgets/testimonial.php:1126
+#: includes/merlin/class-import.php:336
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3583
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3586
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3588
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3597
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3605
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/customizer/class-customize.php:37
+msgid "Socials"
+msgstr ""
+
+#: includes/customizer/class-customize.php:49
+msgid "Show Social Share"
+msgstr ""
+
+#: includes/customizer/class-customize.php:60
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/customizer/class-customize.php:71
+#: includes/template-functions.php:423
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/customizer/class-customize.php:82
+msgid "Share on Linkedin"
+msgstr ""
+
+#: includes/customizer/class-customize.php:99
+#: includes/template-functions.php:440
+msgid "Share on Pinterest"
+msgstr ""
+
+#: includes/customizer/class-customize.php:110
+msgid "Share on Email"
+msgstr ""
+
+#: includes/customizer/class-customize.php:122
+#: includes/merlin/class-merlin.php:2399
+#: includes/merlin-ext/class-extension.php:166
+msgid "Blog"
+msgstr ""
+
+#: includes/customizer/class-customize.php:137
+msgid "Blog style"
+msgstr ""
+
+#: includes/customizer/class-customize.php:140
+msgid "Blog Standard"
+msgstr ""
+
+#: includes/customizer/class-customize.php:141
+msgid "Blog Grid"
+msgstr ""
+
+#: includes/customizer/class-customize.php:153
+#: includes/customizer/class-customize.php:205
+#: includes/merlin-ext/class-extension.php:226
+msgid "Sidebar Position"
+msgstr ""
+
+#: includes/customizer/class-customize.php:156
+#: includes/customizer/class-customize.php:208
+#: includes/elementor/widgets/account.php:71
+#: includes/elementor/widgets/account.php:148
+#: includes/elementor/widgets/brand.php:216
+#: includes/elementor/widgets/breadcurmb.php:98
+#: includes/elementor/widgets/call-to-action.php:348
+#: includes/elementor/widgets/countdown.php:339
+#: includes/elementor/widgets/handheld-footer.php:144
+#: includes/elementor/widgets/header-cart.php:49
+#: includes/elementor/widgets/mailchimp.php:139
+#: includes/elementor/widgets/nav-menu.php:107
+#: includes/elementor/widgets/nav-menu.php:296
+#: includes/elementor/widgets/post-grid.php:263
+#: includes/elementor/widgets/post-grid.php:747
+#: includes/elementor/widgets/post-grid.php:847
+#: includes/elementor/widgets/post-grid.php:962
+#: includes/elementor/widgets/post-grid.php:1008
+#: includes/elementor/widgets/product-tab.php:325
+#: includes/elementor/widgets/product-tab.php:969
+#: includes/elementor/widgets/product-tab.php:1069
+#: includes/elementor/widgets/product.php:837
+#: includes/elementor/widgets/product.php:938
+#: includes/elementor/widgets/product.php:1034
+#: includes/elementor/widgets/search.php:69
+#: includes/elementor/widgets/team-box.php:197
+#: includes/elementor/widgets/testimonial.php:186
+#: includes/elementor/widgets/testimonial.php:841
+#: includes/elementor/widgets/testimonial.php:941
+#: includes/elementor/widgets/video.php:57
+#: includes/elementor/widgets/wishlist.php:85
+#: includes/merlin-ext/class-extension.php:229
+msgid "Left"
+msgstr ""
+
+#: includes/customizer/class-customize.php:157
+#: includes/customizer/class-customize.php:209
+#: includes/elementor/widgets/account.php:79
+#: includes/elementor/widgets/account.php:149
+#: includes/elementor/widgets/brand.php:224
+#: includes/elementor/widgets/breadcurmb.php:106
+#: includes/elementor/widgets/call-to-action.php:356
+#: includes/elementor/widgets/countdown.php:347
+#: includes/elementor/widgets/handheld-footer.php:152
+#: includes/elementor/widgets/header-cart.php:57
+#: includes/elementor/widgets/mailchimp.php:147
+#: includes/elementor/widgets/nav-menu.php:115
+#: includes/elementor/widgets/nav-menu.php:304
+#: includes/elementor/widgets/post-grid.php:271
+#: includes/elementor/widgets/post-grid.php:751
+#: includes/elementor/widgets/post-grid.php:851
+#: includes/elementor/widgets/post-grid.php:966
+#: includes/elementor/widgets/post-grid.php:1016
+#: includes/elementor/widgets/product-tab.php:333
+#: includes/elementor/widgets/product-tab.php:973
+#: includes/elementor/widgets/product-tab.php:1073
+#: includes/elementor/widgets/product.php:841
+#: includes/elementor/widgets/product.php:942
+#: includes/elementor/widgets/product.php:1042
+#: includes/elementor/widgets/search.php:77
+#: includes/elementor/widgets/team-box.php:205
+#: includes/elementor/widgets/testimonial.php:194
+#: includes/elementor/widgets/testimonial.php:845
+#: includes/elementor/widgets/testimonial.php:945
+#: includes/elementor/widgets/video.php:65
+#: includes/elementor/widgets/wishlist.php:93
+#: includes/merlin-ext/class-extension.php:230
+msgid "Right"
+msgstr ""
+
+#: includes/customizer/class-customize.php:171
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/customizer/class-customize.php:175
+msgid "Archive"
+msgstr ""
+
+#: includes/customizer/class-customize.php:189
+msgid "Layout Style"
+msgstr ""
+
+#: includes/customizer/class-customize.php:192
+msgid "Sidebar"
+msgstr ""
+
+#: includes/customizer/class-customize.php:193
+msgid "Canvas Filter"
+msgstr ""
+
+#: includes/customizer/class-customize.php:218
+msgid "Single Product"
+msgstr ""
+
+#: includes/customizer/class-customize.php:231
+#: includes/customizer/class-customize.php:272
+#: includes/elementor/widgets/account.php:95
+#: includes/elementor/widgets/countdown.php:46
+#: includes/elementor/widgets/instagram.php:88
+#: includes/elementor/widgets/post-grid.php:151
+#: includes/elementor/widgets/search.php:50
+#: includes/elementor/widgets/testimonial.php:167
+msgid "Style"
+msgstr ""
+
+#: includes/customizer/class-customize.php:234
+#: includes/elementor/widgets/post-grid.php:957
+msgid "Horizontal"
+msgstr ""
+
+#: includes/customizer/class-customize.php:235
+#: includes/elementor/widgets/post-grid.php:912
+msgid "Vertical"
+msgstr ""
+
+#: includes/customizer/class-customize.php:236
+msgid "Gallery"
+msgstr ""
+
+#: includes/customizer/class-customize.php:237
+#: includes/elementor/sticky-section.php:33
+msgid "Sticky"
+msgstr ""
+
+#: includes/customizer/class-customize.php:250
+msgid "Single extra description"
+msgstr ""
+
+#: includes/customizer/class-customize.php:259
+msgid "Product Block"
+msgstr ""
+
+#: includes/customizer/class-customize.php:275
+#: includes/elementor/widgets/call-to-action.php:156
+#: includes/elementor/widgets/product.php:381
+#: includes/elementor/widgets/product.php:398
+msgid "Default"
+msgstr ""
+
+#: includes/customizer/class-customize.php:287
+msgid "Animation Image Hover"
+msgstr ""
+
+#: includes/customizer/class-customize.php:290
+#: includes/elementor/sticky-section.php:36
+#: includes/elementor/widgets/brand.php:656
+#: includes/elementor/widgets/call-to-action.php:83
+#: includes/elementor/widgets/instagram.php:330
+#: includes/elementor/widgets/post-grid.php:194
+#: includes/elementor/widgets/post-grid.php:557
+#: includes/elementor/widgets/product-tab.php:819
+#: includes/elementor/widgets/product.php:307
+#: includes/elementor/widgets/product.php:606
+#: includes/elementor/widgets/testimonial.php:691
+msgid "None"
+msgstr ""
+
+#: includes/customizer/class-customize.php:291
+msgid "Bottom to Top"
+msgstr ""
+
+#: includes/customizer/class-customize.php:292
+msgid "Top to Bottom"
+msgstr ""
+
+#: includes/customizer/class-customize.php:293
+msgid "Right to Left"
+msgstr ""
+
+#: includes/customizer/class-customize.php:294
+msgid "Left to Right"
+msgstr ""
+
+#: includes/customizer/class-customize.php:295
+#: includes/merlin-ext/class-extension.php:256
+msgid "Swap"
+msgstr ""
+
+#: includes/customizer/class-customize.php:296
+#: includes/merlin-ext/class-extension.php:254
+msgid "Fade"
+msgstr ""
+
+#: includes/customizer/class-customize.php:297
+msgid "Zoom In"
+msgstr ""
+
+#: includes/customizer/class-customize.php:298
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/customizer/class-customize.php:310
+msgid "Products per row on mobile"
+msgstr ""
+
+#: includes/customizer/class-customize.php:311
+msgid "How many products should be shown per row on mobile?"
+msgstr ""
+
+#: includes/customizer/class-customize.php:314
+msgid "1 "
+msgstr ""
+
+#: includes/elementor/custom-css.php:73 includes/elementor/custom-css.php:90
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/elementor/custom-css.php:81
+msgid "Add your own custom CSS here"
+msgstr ""
+
+#: includes/elementor/custom-css.php:101
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
+msgstr ""
+
+#: includes/elementor/custom-widgets/button.php:22
+#: includes/elementor/widgets/account.php:120
+#: includes/elementor/widgets/header-cart.php:88
+#: includes/elementor/widgets/vertical-menu.php:279
+#: includes/elementor/widgets/wishlist.php:56
+#: includes/megamenu/includes/hook-functions.php:207
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elementor/custom-widgets/divider.php:9
+msgid "Position"
+msgstr ""
+
+#: includes/elementor/custom-widgets/icon-list.php:9
+#: includes/elementor/widgets/brand.php:267
+#: includes/elementor/widgets/call-to-action.php:395
+#: includes/elementor/widgets/call-to-action.php:1173
+#: includes/elementor/widgets/contact-form.php:168
+#: includes/elementor/widgets/contact-form.php:262
+#: includes/elementor/widgets/countdown.php:290
+#: includes/elementor/widgets/countdown.php:505
+#: includes/elementor/widgets/mailchimp.php:185
+#: includes/elementor/widgets/mailchimp.php:332
+#: includes/elementor/widgets/nav-menu.php:328
+#: includes/elementor/widgets/product-category.php:239
+#: includes/elementor/widgets/product-tab.php:297
+#: includes/elementor/widgets/team-box.php:232
+#: includes/elementor/widgets/team-box.php:290
+#: includes/elementor/widgets/testimonial.php:267
+#: includes/elementor/widgets/vertical-menu.php:166
+#: includes/elementor/widgets/video.php:183
+#: includes/elementor/widgets/video.php:384
+msgid "Padding"
+msgstr ""
+
+#: includes/elementor/custom-widgets/icon-list.php:21
+#: includes/elementor/widgets/brand.php:326
+#: includes/elementor/widgets/call-to-action.php:407
+#: includes/elementor/widgets/call-to-action.php:502
+#: includes/elementor/widgets/call-to-action.php:635
+#: includes/elementor/widgets/call-to-action.php:1156
+#: includes/elementor/widgets/contact-form.php:156
+#: includes/elementor/widgets/contact-form.php:250
+#: includes/elementor/widgets/countdown.php:323
+#: includes/elementor/widgets/countdown.php:428
+#: includes/elementor/widgets/mailchimp.php:174
+#: includes/elementor/widgets/mailchimp.php:320
+#: includes/elementor/widgets/search.php:125
+#: includes/elementor/widgets/team-box.php:277
+#: includes/elementor/widgets/testimonial.php:314
+#: includes/elementor/widgets/testimonial.php:414
+#: includes/elementor/widgets/vertical-menu.php:177
+#: includes/elementor/widgets/video.php:171
+#: includes/elementor/widgets/video.php:364
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elementor/custom-widgets/icon-list.php:33
+#: includes/elementor/widgets/call-to-action.php:1218
+#: includes/elementor/widgets/search.php:161
+#: includes/elementor/widgets/video.php:112
+#: includes/elementor/widgets/video.php:132
+#: includes/elementor/widgets/wishlist.php:126
+msgid "Background"
+msgstr ""
+
+#: includes/elementor/custom-widgets/text-editor.php:24
+msgid "Text Color Link"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:56
+msgid ""
+"NOTICE: Please note that using both Parallax & Particles together on the "
+"same section may have side effects - use with care!"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:65
+msgid "Enable Parallax"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:71
+msgid "Enable to access extra controls."
+msgstr ""
+
+#: includes/elementor/parallax-section.php:82
+msgid "Scroll"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:83
+msgid "Scroll + Opacity"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:84
+#: includes/elementor/widgets/brand.php:300
+#: includes/elementor/widgets/brand.php:355
+#: includes/elementor/widgets/testimonial.php:1065
+#: includes/elementor/widgets/testimonial.php:1105
+#: includes/elementor/widgets/testimonial.php:1145
+msgid "Opacity"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:85
+msgid "Scale"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:86
+msgid "Scale + Opacity"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:91
+msgid "Set the Parallax type needed - default is Scroll effect."
+msgstr ""
+
+#: includes/elementor/parallax-section.php:98
+msgid ""
+"NOTICE: Speed has some caveats - the higher the speed the greater the zoom "
+"on the image. Negative speed values will also switch the direction of the "
+"movement on scroll!"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:110
+msgid "Speed"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:113
+msgid ""
+"This should be set between -1 to a max of 2 - Decimal points must be used "
+"for fine controls."
+msgstr ""
+
+#: includes/elementor/parallax-section.php:123
+msgid ""
+"NOTICE: These options are untested and I would love to hear your feedback "
+"on them once you have tried them!"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:135
+msgid "Android Support"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:139
+#: includes/elementor/parallax-section.php:156
+#: includes/elementor/widgets/brand.php:641
+#: includes/elementor/widgets/instagram.php:314
+#: includes/elementor/widgets/post-grid.php:541
+#: includes/elementor/widgets/product-tab.php:803
+#: includes/elementor/widgets/product.php:590
+#: includes/elementor/widgets/testimonial.php:675
+msgid "Enable"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:140
+#: includes/elementor/parallax-section.php:157
+msgid "Disable"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:145
+msgid "Enable support on Android devices."
+msgstr ""
+
+#: includes/elementor/parallax-section.php:152
+msgid "iOS Support"
+msgstr ""
+
+#: includes/elementor/parallax-section.php:162
+msgid "Enable support on iOs devices."
+msgstr ""
+
+#: includes/elementor/sticky-section.php:37
+#: includes/elementor/widgets/call-to-action.php:375
+#: includes/elementor/widgets/post-grid.php:702
+#: includes/elementor/widgets/post-grid.php:802
+#: includes/elementor/widgets/post-grid.php:917
+#: includes/elementor/widgets/product-tab.php:924
+#: includes/elementor/widgets/product-tab.php:1024
+#: includes/elementor/widgets/product.php:792
+#: includes/elementor/widgets/product.php:893
+#: includes/elementor/widgets/testimonial.php:796
+#: includes/elementor/widgets/testimonial.php:896
+msgid "Top"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:38
+#: includes/elementor/widgets/call-to-action.php:383
+#: includes/elementor/widgets/post-grid.php:706
+#: includes/elementor/widgets/post-grid.php:806
+#: includes/elementor/widgets/post-grid.php:921
+#: includes/elementor/widgets/product-tab.php:928
+#: includes/elementor/widgets/product-tab.php:1028
+#: includes/elementor/widgets/product.php:796
+#: includes/elementor/widgets/product.php:897
+#: includes/elementor/widgets/testimonial.php:800
+#: includes/elementor/widgets/testimonial.php:900
+msgid "Bottom"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:49
+msgid "Sticky On"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:55
+#: includes/megamenu/includes/hook-functions.php:44
+#: includes/merlin-ext/class-extension.php:316
+msgid "Desktop"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:56
+#: includes/megamenu/includes/hook-functions.php:49
+#: includes/merlin-ext/class-extension.php:328
+msgid "Tablet"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:57
+#: includes/megamenu/includes/hook-functions.php:55
+#: includes/merlin-ext/class-extension.php:336
+msgid "Mobile"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:70
+msgid "Offset"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:87
+msgid "Effects Offset"
+msgstr ""
+
+#: includes/elementor/sticky-section.php:105
+msgid "Stay In Column"
+msgstr ""
+
+#: includes/elementor/widget-template.php:12
+msgid "Organey Elementor Template"
+msgstr ""
+
+#: includes/elementor/widget-template.php:14
+msgid "Embed your saved elements."
+msgstr ""
+
+#: includes/elementor/widget-template.php:77
+#: includes/elementor/widget-template.php:95
+msgid "Select"
+msgstr ""
+
+#: includes/elementor/widget-template.php:88
+#: includes/elementor/widgets/call-to-action.php:679
+#: includes/elementor/widgets/post-grid.php:81
+#: includes/elementor/widgets/product-category.php:171
+#: includes/elementor/widgets/product-tab.php:362
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:67
+#: includes/merlin/includes/class-wc-widget-product-brands.php:48
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/widget-template.php:93
+msgid "Choose Template"
+msgstr ""
+
+#: includes/elementor/widget-template.php:110
+msgid "Edit Template"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:15
+msgid "Organey Account"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:31
+#: includes/elementor/widgets/vertical-menu.php:56
+msgid "Config"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:39
+#: includes/elementor/widgets/brand.php:145
+#: includes/elementor/widgets/call-to-action.php:91
+#: includes/elementor/widgets/call-to-action.php:137
+#: includes/elementor/widgets/header-cart.php:36
+#: includes/elementor/widgets/menu-canvas.php:36
+#: includes/elementor/widgets/search.php:43
+#: includes/elementor/widgets/vertical-menu.php:253
+#: includes/elementor/widgets/video.php:209
+#: includes/elementor/widgets/wishlist.php:31
+#: includes/megamenu/includes/hook-functions.php:193
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:51
+#: includes/elementor/widgets/call-to-action.php:268
+#: includes/elementor/widgets/handheld-footer.php:87
+#: includes/elementor/widgets/testimonial.php:122
+msgid "Link"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:56
+#: includes/elementor/widgets/brand.php:165
+#: includes/elementor/widgets/call-to-action.php:273
+#: includes/elementor/widgets/handheld-footer.php:92
+#: includes/elementor/widgets/team-box.php:145
+#: includes/elementor/widgets/testimonial.php:123
+#: includes/elementor/widgets/video.php:46
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:66
+#: includes/elementor/widgets/brand.php:212
+#: includes/elementor/widgets/breadcurmb.php:94
+#: includes/elementor/widgets/call-to-action.php:344
+#: includes/elementor/widgets/countdown.php:335
+#: includes/elementor/widgets/handheld-footer.php:139
+#: includes/elementor/widgets/header-cart.php:44
+#: includes/elementor/widgets/mailchimp.php:135
+#: includes/elementor/widgets/nav-menu.php:102
+#: includes/elementor/widgets/nav-menu.php:291
+#: includes/elementor/widgets/post-grid.php:259
+#: includes/elementor/widgets/search.php:64
+#: includes/elementor/widgets/team-box.php:193
+#: includes/elementor/widgets/testimonial.php:182
+#: includes/elementor/widgets/video.php:53
+#: includes/elementor/widgets/wishlist.php:80
+msgid "Alignment"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:75
+#: includes/elementor/widgets/brand.php:220
+#: includes/elementor/widgets/breadcurmb.php:102
+#: includes/elementor/widgets/call-to-action.php:352
+#: includes/elementor/widgets/countdown.php:343
+#: includes/elementor/widgets/handheld-footer.php:148
+#: includes/elementor/widgets/header-cart.php:53
+#: includes/elementor/widgets/mailchimp.php:143
+#: includes/elementor/widgets/nav-menu.php:111
+#: includes/elementor/widgets/nav-menu.php:300
+#: includes/elementor/widgets/post-grid.php:267
+#: includes/elementor/widgets/post-grid.php:1012
+#: includes/elementor/widgets/product-tab.php:329
+#: includes/elementor/widgets/product.php:1038
+#: includes/elementor/widgets/search.php:73
+#: includes/elementor/widgets/team-box.php:201
+#: includes/elementor/widgets/testimonial.php:190
+#: includes/elementor/widgets/video.php:61
+#: includes/elementor/widgets/wishlist.php:89
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:103
+#: includes/elementor/widgets/handheld-footer.php:105
+#: includes/elementor/widgets/header-cart.php:71
+#: includes/elementor/widgets/menu-canvas.php:44
+#: includes/elementor/widgets/vertical-menu.php:113
+#: includes/elementor/widgets/wishlist.php:39
+msgid "Size Icon"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:132
+#: includes/elementor/widgets/header-cart.php:100
+#: includes/elementor/widgets/vertical-menu.php:291
+#: includes/elementor/widgets/wishlist.php:68
+msgid "Icon Color Hover"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:144
+msgid "Position Hover"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:159
+msgid "content"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:166
+#: includes/elementor/widgets/brand.php:498
+#: includes/elementor/widgets/contact-form.php:86
+#: includes/elementor/widgets/contact-form.php:125
+#: includes/elementor/widgets/contact-form.php:208
+#: includes/elementor/widgets/mailchimp.php:65
+#: includes/elementor/widgets/mailchimp.php:283
+#: includes/elementor/widgets/menu-canvas.php:61
+#: includes/elementor/widgets/post-grid.php:676
+#: includes/elementor/widgets/product-tab.php:434
+#: includes/elementor/widgets/product-tab.php:467
+#: includes/elementor/widgets/product-tab.php:509
+#: includes/elementor/widgets/product.php:765
+#: includes/elementor/widgets/team-box.php:324
+#: includes/elementor/widgets/team-box.php:434
+#: includes/elementor/widgets/team-box.php:491
+#: includes/elementor/widgets/team-box.php:514
+#: includes/elementor/widgets/testimonial.php:345
+#: includes/elementor/widgets/testimonial.php:449
+#: includes/elementor/widgets/testimonial.php:533
+#: includes/elementor/widgets/testimonial.php:1053
+#: includes/elementor/widgets/testimonial.php:1133
+#: includes/elementor/widgets/vertical-menu.php:136
+#: includes/elementor/widgets/vertical-menu.php:203
+#: includes/elementor/widgets/video.php:277
+#: includes/elementor/widgets/video.php:308
+#: includes/elementor/widgets/wishlist.php:115
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:177
+#: includes/elementor/widgets/contact-form.php:219
+#: includes/elementor/widgets/menu-canvas.php:72
+#: includes/elementor/widgets/testimonial.php:357
+#: includes/elementor/widgets/testimonial.php:461
+#: includes/elementor/widgets/testimonial.php:545
+#: includes/elementor/widgets/testimonial.php:1092
+#: includes/elementor/widgets/vertical-menu.php:147
+msgid "Color Hover"
+msgstr ""
+
+#: includes/elementor/widgets/account.php:217
+#: includes/template-functions.php:194
+msgid "Login"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:51
+#: includes/elementor/widgets/brand.php:95
+#: includes/elementor/widgets/product.php:241
+#: includes/merlin/includes/class-wc-widget-product-brands.php:260
+#: includes/merlin/includes/class-wc-widget-product-brands.php:261
+#: includes/merlin/includes/class-wc-widget-product-brands.php:262
+msgid "Brands"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:104
+msgid "Brand name"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:106
+#: includes/elementor/widgets/brand.php:107
+msgid "Brand Name"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:118
+#: includes/elementor/widgets/call-to-action.php:36
+#: includes/elementor/widgets/call-to-action.php:87
+#: includes/elementor/widgets/product-category.php:131
+#: includes/elementor/widgets/team-box.php:260
+#: includes/elementor/widgets/testimonial.php:397
+#: includes/woocommerce/class-woocommerce-brand.php:29
+#: includes/woocommerce/class-woocommerce-brand.php:58
+msgid "Image"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:119
+#: includes/elementor/widgets/brand.php:464
+msgid "Icon & SVG"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:128
+#: includes/elementor/widgets/call-to-action.php:43
+#: includes/elementor/widgets/call-to-action.php:102
+#: includes/elementor/widgets/product-category.php:107
+#: includes/elementor/widgets/team-box.php:105
+#: includes/elementor/widgets/testimonial.php:87
+msgid "Choose Image"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:160
+#: includes/elementor/widgets/team-box.php:144
+#: includes/elementor/widgets/video.php:43
+msgid "Link to"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:172
+#: includes/elementor/widgets/testimonial.php:131
+msgid "Items"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:183
+#: includes/elementor/widgets/instagram.php:38
+#: includes/elementor/widgets/product-category.php:80
+#: includes/elementor/widgets/product-single.php:85
+#: includes/elementor/widgets/product.php:89
+#: includes/elementor/widgets/search.php:31
+#: includes/merlin-ext/class-extension.php:162
+msgid "Settings"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:202
+#: includes/elementor/widgets/post-grid.php:141
+#: includes/elementor/widgets/testimonial.php:157
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:238
+#: includes/elementor/widgets/call-to-action.php:447
+#: includes/elementor/widgets/call-to-action.php:522
+#: includes/elementor/widgets/call-to-action.php:712
+#: includes/elementor/widgets/call-to-action.php:833
+#: includes/elementor/widgets/call-to-action.php:888
+#: includes/elementor/widgets/post-grid.php:161
+#: includes/elementor/widgets/product-tab.php:389
+#: includes/elementor/widgets/team-box.php:358
+#: includes/elementor/widgets/team-box.php:406
+#: includes/elementor/widgets/team-box.php:454
+#: includes/elementor/widgets/testimonial.php:377
+#: includes/elementor/widgets/testimonial.php:505
+#: includes/elementor/widgets/testimonial.php:1167
+msgid "Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:259
+#: includes/elementor/widgets/team-box.php:224
+#: includes/elementor/widgets/testimonial.php:223
+#: includes/elementor/widgets/video.php:95
+msgid "Wrapper"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:279
+#: includes/elementor/widgets/breadcurmb.php:167
+#: includes/elementor/widgets/call-to-action.php:1185
+#: includes/elementor/widgets/contact-form.php:98
+#: includes/elementor/widgets/contact-form.php:180
+#: includes/elementor/widgets/contact-form.php:274
+#: includes/elementor/widgets/countdown.php:302
+#: includes/elementor/widgets/mailchimp.php:197
+#: includes/elementor/widgets/mailchimp.php:344
+#: includes/elementor/widgets/product-tab.php:348
+#: includes/elementor/widgets/team-box.php:244
+#: includes/elementor/widgets/team-box.php:301
+#: includes/elementor/widgets/testimonial.php:279
+#: includes/elementor/widgets/testimonial.php:426
+#: includes/elementor/widgets/video.php:194
+#: includes/elementor/widgets/video.php:395
+msgid "Margin"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:293
+#: includes/elementor/widgets/brand.php:492
+#: includes/elementor/widgets/call-to-action.php:918
+#: includes/elementor/widgets/call-to-action.php:1048
+#: includes/elementor/widgets/call-to-action.php:1243
+#: includes/elementor/widgets/call-to-action.php:1272
+#: includes/elementor/widgets/language-switcher.php:95
+#: includes/elementor/widgets/mailchimp.php:58
+#: includes/elementor/widgets/mailchimp.php:222
+#: includes/elementor/widgets/nav-menu.php:149
+#: includes/elementor/widgets/product-category.php:188
+#: includes/elementor/widgets/product-tab.php:427
+#: includes/elementor/widgets/team-box.php:484
+#: includes/elementor/widgets/testimonial.php:1046
+#: includes/elementor/widgets/video.php:105
+#: includes/elementor/widgets/video.php:270
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:348
+#: includes/elementor/widgets/brand.php:510
+#: includes/elementor/widgets/call-to-action.php:969
+#: includes/elementor/widgets/call-to-action.php:1090
+#: includes/elementor/widgets/call-to-action.php:1297
+#: includes/elementor/widgets/language-switcher.php:116
+#: includes/elementor/widgets/mailchimp.php:265
+#: includes/elementor/widgets/nav-menu.php:190
+#: includes/elementor/widgets/product-category.php:218
+#: includes/elementor/widgets/product-tab.php:460
+#: includes/elementor/widgets/team-box.php:507
+#: includes/elementor/widgets/testimonial.php:1085
+#: includes/elementor/widgets/video.php:125
+#: includes/elementor/widgets/video.php:301
+msgid "Hover"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:396
+#: includes/elementor/widgets/testimonial.php:232
+#: includes/elementor/widgets/video.php:234
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:431
+#: includes/elementor/widgets/call-to-action.php:317
+#: includes/elementor/widgets/video.php:251
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:472
+#: includes/elementor/widgets/call-to-action.php:467
+#: includes/elementor/widgets/post-grid.php:658
+#: includes/elementor/widgets/product.php:748
+msgid "Size"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:516
+#: includes/elementor/widgets/call-to-action.php:542
+msgid "Primary Color"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:632
+#: includes/elementor/widgets/instagram.php:305
+#: includes/elementor/widgets/post-grid.php:532
+#: includes/elementor/widgets/product-tab.php:794
+#: includes/elementor/widgets/product.php:581
+#: includes/elementor/widgets/testimonial.php:666
+msgid "Carousel Options"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:649
+#: includes/elementor/widgets/instagram.php:323
+#: includes/elementor/widgets/post-grid.php:550
+#: includes/elementor/widgets/product-tab.php:812
+#: includes/elementor/widgets/product.php:599
+#: includes/elementor/widgets/testimonial.php:684
+msgid "Navigation"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:653
+#: includes/elementor/widgets/instagram.php:327
+#: includes/elementor/widgets/post-grid.php:554
+#: includes/elementor/widgets/product-tab.php:816
+#: includes/elementor/widgets/product.php:603
+#: includes/elementor/widgets/testimonial.php:688
+msgid "Arrows and Dots"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:654
+#: includes/elementor/widgets/instagram.php:328
+#: includes/elementor/widgets/post-grid.php:555
+#: includes/elementor/widgets/product-tab.php:817
+#: includes/elementor/widgets/product.php:604
+#: includes/elementor/widgets/testimonial.php:689
+msgid "Arrows"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:655
+#: includes/elementor/widgets/instagram.php:329
+#: includes/elementor/widgets/post-grid.php:556
+#: includes/elementor/widgets/product-tab.php:818
+#: includes/elementor/widgets/product.php:605
+#: includes/elementor/widgets/testimonial.php:690
+msgid "Dots"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:667
+#: includes/elementor/widgets/instagram.php:341
+#: includes/elementor/widgets/post-grid.php:568
+#: includes/elementor/widgets/product-tab.php:830
+#: includes/elementor/widgets/product.php:646
+#: includes/elementor/widgets/testimonial.php:702
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:679
+#: includes/elementor/widgets/instagram.php:353
+#: includes/elementor/widgets/post-grid.php:580
+#: includes/elementor/widgets/product-tab.php:842
+#: includes/elementor/widgets/product.php:658
+#: includes/elementor/widgets/testimonial.php:714
+msgid "Autoplay"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:691
+#: includes/elementor/widgets/instagram.php:365
+#: includes/elementor/widgets/post-grid.php:592
+#: includes/elementor/widgets/product-tab.php:854
+#: includes/elementor/widgets/product.php:670
+#: includes/elementor/widgets/testimonial.php:726
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/elementor/widgets/brand.php:707
+#: includes/elementor/widgets/instagram.php:381
+#: includes/elementor/widgets/post-grid.php:608
+#: includes/elementor/widgets/product-tab.php:870
+#: includes/elementor/widgets/product.php:686
+#: includes/elementor/widgets/testimonial.php:742
+msgid "Infinite Loop"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:21
+msgid "Organey WooCommerce Breadcrumbs"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:37
+msgid "Style Breadcrumb"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:46
+msgid ""
+"The style of this widget is often affected by your theme and plugins. If "
+"you experience any such issue, try to switch to a basic theme and "
+"deactivate related plugins."
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:54
+#: includes/elementor/widgets/call-to-action.php:1055
+#: includes/elementor/widgets/call-to-action.php:1108
+#: includes/elementor/widgets/mailchimp.php:240
+#: includes/elementor/widgets/team-box.php:386
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:65
+msgid "Link Color"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:76
+msgid "Typography Link"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:85
+msgid "Typography Text"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:122
+msgid "Style Title"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:130
+#: includes/elementor/widgets/call-to-action.php:925
+#: includes/elementor/widgets/call-to-action.php:976
+#: includes/elementor/widgets/language-switcher.php:102
+#: includes/elementor/widgets/language-switcher.php:123
+msgid "Title Color"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:149
+msgid "Hidden Title"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:158
+msgid "Hidden Title Single"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:24
+msgid "Organey Banner"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:58
+msgid "Image Resolution"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:72
+#: includes/elementor/widgets/call-to-action.php:653
+#: includes/elementor/widgets/countdown.php:363
+#: includes/elementor/widgets/testimonial.php:96
+#: includes/elementor/widgets/testimonial.php:337
+#: includes/merlin/class-merlin.php:759 includes/merlin/class-merlin.php:2016
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:79
+#: includes/elementor/widgets/call-to-action.php:421
+msgid "Graphic Element"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:153
+#: includes/elementor/widgets/team-box.php:88
+#: includes/elementor/widgets/testimonial.php:211
+msgid "View"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:157
+msgid "Stacked"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:158
+msgid "Framed"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:170
+msgid "Shape"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:173
+msgid "Circle"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:174
+msgid "Square"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:187
+msgid "Sub title"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:192
+msgid "This is the sub title"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:193
+msgid "Enter your sub title"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:202
+msgid "Title & Description"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:207
+msgid "This is the heading"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:208
+msgid "Enter your title"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:217
+#: includes/elementor/widgets/call-to-action.php:854
+#: includes/elementor/widgets/team-box.php:135
+#: includes/elementor/widgets/team-box.php:426
+msgid "Description"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:222
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:223
+msgid "Enter your description"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:233
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:255
+msgid "Button Text"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:260
+msgid "Click Here"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:281
+msgid "Apply Link On"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:284
+msgid "Whole Box"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:285
+msgid "Button Only"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:300
+msgid "Box"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:308
+msgid "Stretch"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:371
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:379
+msgid "Middle"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:435
+msgid "Image Effect"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:560
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:579
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:599
+msgid "Icon Padding"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:620
+msgid "Border Width"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:731
+msgid "Decor"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:740
+msgid "Decor Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:754
+msgid "Decor Size"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:776
+msgid "Decor Position"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:799
+msgid "Subtitle"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:909
+#: includes/merlin-ext/class-extension.php:193
+msgid "Colors"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:939
+#: includes/elementor/widgets/call-to-action.php:990
+msgid "Sub title Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:953
+#: includes/elementor/widgets/call-to-action.php:1004
+msgid "Description Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1024
+#: includes/elementor/widgets/contact-form.php:193
+#: includes/elementor/widgets/mailchimp.php:212
+msgid "Button"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1066
+#: includes/elementor/widgets/call-to-action.php:1119
+#: includes/elementor/widgets/countdown.php:279
+#: includes/elementor/widgets/mailchimp.php:77
+#: includes/elementor/widgets/mailchimp.php:108
+#: includes/elementor/widgets/mailchimp.php:229
+#: includes/elementor/widgets/mailchimp.php:272
+#: includes/elementor/widgets/product-category.php:157
+#: includes/elementor/widgets/product-tab.php:309
+#: includes/elementor/widgets/product-tab.php:446
+#: includes/elementor/widgets/product-tab.php:478
+#: includes/elementor/widgets/product-tab.php:521
+#: includes/elementor/widgets/testimonial.php:291
+#: includes/elementor/widgets/vertical-menu.php:228
+#: includes/elementor/widgets/video.php:288
+#: includes/elementor/widgets/video.php:318
+msgid "Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1077
+#: includes/elementor/widgets/call-to-action.php:1130
+#: includes/elementor/widgets/countdown.php:371
+#: includes/elementor/widgets/mailchimp.php:119
+#: includes/elementor/widgets/mailchimp.php:252
+#: includes/elementor/widgets/mailchimp.php:294
+#: includes/elementor/widgets/product-tab.php:489
+#: includes/elementor/widgets/product-tab.php:532
+#: includes/elementor/widgets/search.php:137
+#: includes/elementor/widgets/vertical-menu.php:240
+#: includes/elementor/widgets/video.php:143
+#: includes/elementor/widgets/video.php:329
+msgid "Border Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1097
+msgid "Text Box Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1197
+msgid "Button Style"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1209
+msgid "Hover Effects"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1225
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1250
+#: includes/elementor/widgets/call-to-action.php:1304
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1269
+msgid "Blend Mode"
+msgstr ""
+
+#: includes/elementor/widgets/call-to-action.php:1323
+msgid "Transition Duration"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:19
+msgid "Organey Contact Form"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:34
+#: includes/elementor/widgets/rev-slider.php:35
+#: includes/elementor/widgets/video.php:35
+#: includes/merlin-ext/class-extension.php:165
+msgid "General"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:39
+msgid "Please select form"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:45
+msgid "No contact forms found"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:51
+msgid "Select contact form"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:61
+msgid "Form name"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:63
+msgid "Contact form"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:71
+#: includes/elementor/widgets/countdown.php:464
+msgid "Label"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:110
+#: includes/elementor/widgets/mailchimp.php:48
+msgid "Input"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:144
+#: includes/elementor/widgets/search.php:149
+msgid "Border Color Focus"
+msgstr ""
+
+#: includes/elementor/widgets/contact-form.php:238
+msgid "Border Color Hover"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:20
+msgid "Organey Countdown"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:39
+msgid "Countdown"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:49
+#: includes/elementor/widgets/instagram.php:93
+#: includes/elementor/widgets/product.php:353
+#: includes/elementor/widgets/product.php:382
+#: includes/elementor/widgets/search.php:54
+#: includes/elementor/widgets/testimonial.php:171
+msgid "Style 1"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:50
+#: includes/elementor/widgets/instagram.php:94
+#: includes/elementor/widgets/product.php:354
+#: includes/elementor/widgets/product.php:383
+#: includes/elementor/widgets/search.php:55
+#: includes/elementor/widgets/testimonial.php:172
+msgid "Style 2"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:60
+msgid "Due Date"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:64
+#. translators: %s: Time zone.
+msgid "Date set according to your timezone: %s."
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:71
+#: includes/elementor/widgets/countdown.php:138
+#: includes/elementor/widgets/countdown.php:140
+#: includes/elementor/widgets/countdown.php:141
+#: includes/elementor/widgets/countdown.php:542
+#: includes/woocommerce/woocommerce-template-functions.php:191
+msgid "Days"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:73
+#: includes/elementor/widgets/countdown.php:84
+#: includes/elementor/widgets/countdown.php:95
+#: includes/elementor/widgets/countdown.php:106
+#: includes/elementor/widgets/countdown.php:117
+msgid "Show"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:74
+#: includes/elementor/widgets/countdown.php:85
+#: includes/elementor/widgets/countdown.php:96
+#: includes/elementor/widgets/countdown.php:107
+#: includes/elementor/widgets/countdown.php:118
+msgid "Hide"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:82
+#: includes/elementor/widgets/countdown.php:153
+#: includes/elementor/widgets/countdown.php:155
+#: includes/elementor/widgets/countdown.php:156
+#: includes/elementor/widgets/countdown.php:543
+#: includes/woocommerce/woocommerce-template-functions.php:195
+msgid "Hours"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:93
+#: includes/elementor/widgets/countdown.php:168
+#: includes/elementor/widgets/countdown.php:170
+#: includes/elementor/widgets/countdown.php:171
+#: includes/elementor/widgets/countdown.php:544
+msgid "Minutes"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:104
+#: includes/elementor/widgets/countdown.php:183
+#: includes/elementor/widgets/countdown.php:185
+#: includes/elementor/widgets/countdown.php:186
+#: includes/elementor/widgets/countdown.php:545
+msgid "Seconds"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:115
+msgid "Show Label"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:127
+msgid "Custom Label"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:200
+msgid "Boxes"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:208
+#: includes/megamenu/includes/hook-functions.php:228
+msgid "Container Width"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:234
+msgid "Items Width"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:257
+msgid "Items Height"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:383
+msgid "Color digit"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:395
+msgid "Bg Color digit"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:403
+msgid "Background Or Border Color"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:440
+msgid "Padding digits"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:452
+msgid "Margin digits"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:473
+msgid "Color label"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:485
+msgid "Color decor"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:540
+msgid "Months"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:541
+msgid "Weeks"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:19
+msgid "Organey Handheld Footer"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:35
+msgid "Setting"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:40
+msgid "Custom"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:41
+#: includes/elementor/widgets/handheld-footer.php:203
+msgid "Search"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:45
+#: includes/elementor/widgets/handheld-footer.php:181
+msgid "Shop"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:46
+msgid "My account"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:47
+#: includes/elementor/widgets/handheld-footer.php:216
+#: includes/woocommerce/woocommerce-template-functions.php:307
+msgid "Wishlist"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:61
+#: includes/elementor/widgets/handheld-footer.php:72
+msgid "Heading"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:122
+msgid "Size Title"
+msgstr ""
+
+#: includes/elementor/widgets/handheld-footer.php:192
+#: includes/woocommerce/class-woocommerce.php:368
+msgid "My Account"
+msgstr ""
+
+#: includes/elementor/widgets/header-cart.php:19
+msgid "Organey Header Cart"
+msgstr ""
+
+#: includes/elementor/widgets/header-cart.php:114
+#: includes/elementor/widgets/wishlist.php:108
+msgid "Count"
+msgstr ""
+
+#: includes/elementor/widgets/header-cart.php:122
+msgid "Hide Price"
+msgstr ""
+
+#: includes/elementor/widgets/header-cart.php:131
+#: includes/elementor/widgets/wishlist.php:137
+msgid "Hide Count"
+msgstr ""
+
+#: includes/elementor/widgets/header-cart.php:140
+#: includes/elementor/widgets/product-category.php:206
+msgid "Color Count"
+msgstr ""
+
+#: includes/elementor/widgets/header-cart.php:152
+msgid "Color Price"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:22
+msgid "Organey Instagram"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:46
+msgid "Number of Photos"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:57
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:69
+msgid "Padding around Images"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:95
+#: includes/elementor/widgets/testimonial.php:173
+msgid "Style 3"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:148
+msgid "This error message is only visible to WordPress admins"
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:149
+msgid "Error: No connected account."
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:150
+msgid "Please go to the Instagram Feed settings page to connect an account."
+msgstr ""
+
+#: includes/elementor/widgets/instagram.php:277
+msgid "Instagram post %s"
+msgstr ""
+
+#: includes/elementor/widgets/language-switcher.php:49
+msgid "Language Switcher"
+msgstr ""
+
+#: includes/elementor/widgets/language-switcher.php:79
+#: includes/elementor/widgets/nav-menu.php:58
+#: includes/elementor/widgets/post-grid.php:132
+#: includes/elementor/widgets/search.php:38
+#: includes/merlin-ext/class-extension.php:177
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor/widgets/language-switcher.php:140
+msgid "Hover Right"
+msgstr ""
+
+#: includes/elementor/widgets/mailchimp.php:22
+msgid "MailChimp Sign-Up Form"
+msgstr ""
+
+#: includes/elementor/widgets/mailchimp.php:88
+msgid "Color Border"
+msgstr ""
+
+#: includes/elementor/widgets/mailchimp.php:101
+msgid "Focus"
+msgstr ""
+
+#: includes/elementor/widgets/menu-canvas.php:18
+msgid "Organey Menu Canvas"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:21
+msgid "Organey Nav Menu"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:69
+#: includes/elementor/widgets/nav-menu.php:94
+#: includes/elementor/widgets/vertical-menu.php:66
+#: includes/elementor/widgets/vertical-menu.php:106
+#: includes/template-functions.php:222 template-parts/header.php:40
+msgid "Menu"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:75
+#: includes/elementor/widgets/vertical-menu.php:72
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your "
+"menus."
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:83
+#: includes/elementor/widgets/vertical-menu.php:80
+msgid "There are no menus in your site."
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:83
+#: includes/elementor/widgets/vertical-menu.php:80
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:137
+msgid "Typography Sub Menu"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:155
+#: includes/elementor/widgets/nav-menu.php:196
+#: includes/elementor/widgets/nav-menu.php:242
+msgid "Color Menu"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:166
+#: includes/elementor/widgets/nav-menu.php:210
+#: includes/elementor/widgets/nav-menu.php:255
+msgid "Color Sub Menu"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:177
+msgid "Background Dropdown"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:221
+#: includes/elementor/widgets/nav-menu.php:265
+#: includes/elementor/widgets/nav-menu.php:317
+msgid "Background Item"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:281
+msgid "Menu Vertical"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:21
+msgid "Posts Grid"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:50
+msgid "Query"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:58
+#: includes/elementor/widgets/product-tab.php:109
+#: includes/elementor/widgets/product.php:140
+msgid "Posts Per Page"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:68
+#: includes/elementor/widgets/product-tab.php:118
+#: includes/elementor/widgets/product.php:162
+#: includes/merlin/class-import.php:368 includes/merlin/class-import.php:372
+msgid "Advanced"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:76
+#: includes/elementor/widgets/product-tab.php:126
+#: includes/elementor/widgets/product.php:173
+msgid "Order By"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:80
+#: includes/elementor/widgets/product-tab.php:130
+#: includes/elementor/widgets/product.php:177
+msgid "Date"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:82
+#: includes/elementor/widgets/product-tab.php:132
+#: includes/elementor/widgets/product.php:179
+msgid "Menu Order"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:83
+#: includes/elementor/widgets/product-tab.php:136
+#: includes/elementor/widgets/product.php:183
+msgid "Random"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:91
+#: includes/elementor/widgets/product-tab.php:144
+#: includes/elementor/widgets/product.php:194
+msgid "Order"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:95
+#: includes/elementor/widgets/product-tab.php:148
+#: includes/elementor/widgets/product.php:198
+msgid "ASC"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:96
+#: includes/elementor/widgets/product-tab.php:149
+#: includes/elementor/widgets/product.php:199
+msgid "DESC"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:104
+#: includes/elementor/widgets/product-category.php:96
+#: includes/elementor/widgets/product-tab.php:157
+#: includes/elementor/widgets/product.php:210
+msgid "Categories"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:115
+#: includes/elementor/widgets/product-tab.php:168
+#: includes/elementor/widgets/product.php:224
+msgid "Category Operator"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:119
+#: includes/elementor/widgets/product-tab.php:172
+#: includes/elementor/widgets/product-tab.php:200
+#: includes/elementor/widgets/product.php:228
+#: includes/elementor/widgets/product.php:259
+#: includes/elementor/widgets/product.php:290
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:80
+msgid "AND"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:120
+#: includes/elementor/widgets/product-tab.php:173
+#: includes/elementor/widgets/product-tab.php:201
+#: includes/elementor/widgets/product.php:229
+#: includes/elementor/widgets/product.php:260
+#: includes/elementor/widgets/product.php:291
+msgid "IN"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:121
+#: includes/elementor/widgets/product-tab.php:174
+#: includes/elementor/widgets/product-tab.php:202
+#: includes/elementor/widgets/product.php:230
+#: includes/elementor/widgets/product.php:261
+#: includes/elementor/widgets/product.php:292
+msgid "NOT IN"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:182
+#: includes/elementor/widgets/post-grid.php:190
+#: includes/elementor/widgets/post-grid.php:430
+#: includes/elementor/widgets/product.php:308
+msgid "Pagination"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:195
+#: includes/elementor/widgets/post-grid.php:197
+msgid "Numbers"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:196
+#: includes/elementor/widgets/post-grid.php:197
+msgid "Previous/Next"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:205
+msgid "Page Limit"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:216
+msgid "Shorten"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:231
+msgid "Previous Label"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:232
+msgid "&laquo; Previous"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:245
+msgid "Next Label"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:246
+msgid "Next &raquo;"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:417
+msgid "Page"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:622
+#: includes/elementor/widgets/product-tab.php:884
+#: includes/elementor/widgets/product.php:712
+#: includes/elementor/widgets/testimonial.php:756
+msgid "Carousel Arrows"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:650
+#: includes/elementor/widgets/product.php:740
+msgid "Style Arrow"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:689
+#: includes/elementor/widgets/product-tab.php:911
+#: includes/elementor/widgets/product.php:779
+#: includes/elementor/widgets/testimonial.php:783
+msgid "Next button"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:697
+#: includes/elementor/widgets/product-tab.php:919
+#: includes/elementor/widgets/product.php:787
+#: includes/elementor/widgets/testimonial.php:791
+msgid "Next Vertical"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:742
+#: includes/elementor/widgets/product-tab.php:964
+#: includes/elementor/widgets/product.php:832
+#: includes/elementor/widgets/testimonial.php:836
+msgid "Next Horizontal"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:788
+#: includes/elementor/widgets/product-tab.php:1010
+#: includes/elementor/widgets/product.php:879
+#: includes/elementor/widgets/testimonial.php:882
+msgid "Prev button"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:797
+#: includes/elementor/widgets/product-tab.php:1019
+#: includes/elementor/widgets/product.php:888
+#: includes/elementor/widgets/testimonial.php:891
+msgid "Prev Vertical"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:842
+#: includes/elementor/widgets/product-tab.php:1064
+#: includes/elementor/widgets/product.php:933
+#: includes/elementor/widgets/testimonial.php:936
+msgid "Prev Horizontal"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:890
+#: includes/elementor/widgets/product.php:981
+#: includes/elementor/widgets/testimonial.php:1012
+msgid "Carousel Dots"
+msgstr ""
+
+#: includes/elementor/widgets/post-grid.php:1003
+#: includes/elementor/widgets/product-tab.php:320
+#: includes/elementor/widgets/product.php:1029
+msgid "Align"
+msgstr ""
+
+#: includes/elementor/widgets/product-category.php:49
+msgid "Product Category"
+msgstr ""
+
+#: includes/elementor/widgets/product-category.php:88
+msgid "Alternate Name"
+msgstr ""
+
+#: includes/elementor/widgets/product-category.php:139
+msgid "Min Height"
+msgstr ""
+
+#: includes/elementor/widgets/product-category.php:194
+#: includes/elementor/widgets/product-category.php:224
+msgid "Color Title"
+msgstr ""
+
+#: includes/elementor/widgets/product-category.php:281
+msgid "Choose Category"
+msgstr ""
+
+#: includes/elementor/widgets/product-category.php:312
+msgid "products"
+msgstr ""
+
+#: includes/elementor/widgets/product-single.php:54
+msgid "Single Products"
+msgstr ""
+
+#: includes/elementor/widgets/product-single.php:93
+msgid "Product Name"
+msgstr ""
+
+#: includes/elementor/widgets/product-single.php:167
+msgid "Please choose product to display !"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:55
+msgid "Products Tabs"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:90
+msgid "Tabs"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:99
+msgid "Tab Title"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:101
+msgid "#Product Tab"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:102
+msgid "Product Tab Title"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:131
+#: includes/elementor/widgets/product.php:178
+msgid "Post ID"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:133
+#: includes/elementor/widgets/product.php:180
+msgid "Number of purchases"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:134
+#: includes/elementor/widgets/product.php:181
+msgid "Average Product Rating"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:135
+#: includes/elementor/widgets/product.php:182
+msgid "Product Title"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:185
+#: includes/elementor/widgets/product.php:272
+msgid "Tags"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:196
+#: includes/elementor/widgets/product.php:286
+msgid "Tag Operator"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:213
+#: includes/elementor/widgets/product.php:109
+msgid "Product Type"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:217
+#: includes/elementor/widgets/product.php:95
+msgid "Newest Products"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:218
+#: includes/elementor/widgets/product.php:96
+msgid "On Sale Products"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:219
+#: includes/elementor/widgets/product.php:97
+msgid "Best Selling"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:220
+#: includes/elementor/widgets/product.php:98
+msgid "Top Rated"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:221
+#: includes/elementor/widgets/product.php:99
+msgid "Featured Product"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:234
+msgid "#Product Tab 1"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:237
+msgid "#Product Tab 2"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:247
+#: includes/elementor/widgets/product.php:149
+msgid "columns"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:261 woocommerce/cart/cart.php:29
+#: woocommerce/cart/cart.php:61 woocommerce/wishlist-table.php:9
+msgid "Product"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:267
+#: includes/elementor/widgets/product.php:316
+msgid "Gutter"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:289
+#: includes/merlin/class-import.php:725
+#: includes/merlin/includes/settings.php:49
+msgid "Header"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:370
+msgid "Show Dots"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:407
+msgid "Vertical Padding"
+msgstr ""
+
+#: includes/elementor/widgets/product-tab.php:558
+msgid "Border radius"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:53
+#: includes/merlin/class-merlin.php:2400
+msgid "Products"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:103
+msgid "Product Ids"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:120
+msgid "Product ids"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:255
+msgid "Brand Operator"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:303
+msgid "Paginate"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:337
+msgid "Layut Style"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:341
+#: includes/merlin-ext/class-extension.php:221
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:342
+msgid "List"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:349
+msgid "List Style"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:366
+msgid "Show Border"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:377
+msgid "Block Style"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:394
+msgid "Product Style"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:399
+msgid "Masonry 1"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:400
+msgid "Masonry 2"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:617
+msgid "Arrow Always Show"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:698
+msgid "Visibility"
+msgstr ""
+
+#: includes/elementor/widgets/product.php:1005
+msgid "Dots Position"
+msgstr ""
+
+#: includes/elementor/widgets/rev-slider.php:19
+msgid "Organey Revolution Slider"
+msgstr ""
+
+#: includes/elementor/widgets/rev-slider.php:50
+msgid "No sliders found"
+msgstr ""
+
+#: includes/elementor/widgets/rev-slider.php:56
+#: includes/merlin/class-merlin.php:2042
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/elementor/widgets/search.php:15
+msgid "Organey Search Form"
+msgstr ""
+
+#: includes/elementor/widgets/search.php:42
+msgid "Search Form"
+msgstr ""
+
+#: includes/elementor/widgets/search.php:96
+msgid "Style Form"
+msgstr ""
+
+#: includes/elementor/widgets/search.php:107
+msgid "Border width"
+msgstr ""
+
+#: includes/elementor/widgets/search.php:172
+#: includes/elementor/widgets/search.php:196
+#: includes/elementor/widgets/search.php:208
+msgid "Color Icon"
+msgstr ""
+
+#: includes/elementor/widgets/search.php:186
+msgid "Style Icon"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:39
+msgid "Team Box"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:72
+msgid "Team"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:97
+msgid "Team Item"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:117
+#: includes/elementor/widgets/team-box.php:316
+#: includes/elementor/widgets/testimonial.php:106
+#: includes/elementor/widgets/testimonial.php:441
+#: woocommerce/single-product-reviews.php:136
+msgid "Name"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:126
+#: includes/elementor/widgets/team-box.php:378
+#: includes/elementor/widgets/testimonial.php:114
+#: includes/elementor/widgets/testimonial.php:525
+msgid "Job"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:153
+#: includes/template-functions.php:416 woocommerce/wishlist.php:19
+msgid "Facebook"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:154
+msgid "https://www.facebook.com/opalwordpress"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:163
+#: includes/template-functions.php:425 woocommerce/wishlist.php:20
+msgid "Twitter"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:164
+msgid "https://twitter.com/opalwordpress"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:173
+msgid "Youtube"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:174
+msgid "https://www.youtube.com/user/WPOpalTheme"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:183
+msgid "Google"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:184
+msgid "https://plus.google.com/u/0/+WPOpal"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:337
+msgid "Hover Color"
+msgstr ""
+
+#: includes/elementor/widgets/team-box.php:474
+msgid "Icon Social"
+msgstr ""
+
+#: includes/elementor/widgets/testimonial.php:41
+msgid "Organey Testimonials"
+msgstr ""
+
+#: includes/elementor/widgets/testimonial.php:78
+msgid "Testimonials"
+msgstr ""
+
+#: includes/elementor/widgets/testimonial.php:473
+msgid "Color Decor"
+msgstr ""
+
+#: includes/elementor/widgets/testimonial.php:982
+msgid "Color button"
+msgstr ""
+
+#: includes/elementor/widgets/testimonial.php:989
+msgid "Color normal"
+msgstr ""
+
+#: includes/elementor/widgets/testimonial.php:999
+msgid "Color active"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:19
+msgid "Organey Vertical Menu"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:90
+msgid "Menu Layout"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:93
+msgid "Dropdown"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:94
+msgid "Navbar"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:189
+msgid "Sub Menu"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:216
+msgid "Color Active"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:262
+#: includes/elementor/widgets/video.php:217
+msgid "Font Size"
+msgstr ""
+
+#: includes/elementor/widgets/vertical-menu.php:323
+msgid "Vertiacl Navigation"
+msgstr ""
+
+#: includes/elementor/widgets/video.php:20
+msgid "Organey Video Popup"
+msgstr ""
+
+#: includes/elementor/widgets/video.php:45
+msgid "Support video from Youtube and Vimeo"
+msgstr ""
+
+#: includes/elementor/widgets/video.php:79
+msgid "Icon Font"
+msgstr ""
+
+#: includes/elementor/widgets/wishlist.php:15
+msgid "Organey Wishlist"
+msgstr ""
+
+#: includes/megamenu/includes/admin/class-admin-assets.php:62
+#: includes/woocommerce/woocommerce-template-functions.php:588
+msgid "Close"
+msgstr ""
+
+#: includes/megamenu/includes/admin/class-admin-assets.php:63
+msgid "Save"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:32
+msgid "Back"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:36
+#: includes/megamenu/includes/hook-functions.php:38
+msgid "Responsive Mode"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:45
+msgid "Default Preview"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:51
+msgid "Preview for %s"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:56
+msgid "Preview for 360px"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:61
+#: includes/megamenu/includes/hook-functions.php:63
+msgid "History"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:65
+#: includes/megamenu/includes/hook-functions.php:68
+msgid "Preview Changes"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:77
+msgid "Publish"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:82
+#: includes/megamenu/includes/hook-functions.php:84
+msgid "Save Options"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:98
+msgid "Save Draft"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:102
+msgid "Save as Template"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:118
+#: includes/megamenu/includes/hook-functions.php:159
+msgid "Access denied"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:195
+msgid "No Use"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:196
+msgid "Custom Class"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:203
+msgid "Icon Class Name"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:212
+msgid "Mega Submenu Enabled"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:214
+#: includes/megamenu/includes/hook-functions.php:225
+#: includes/megamenu/includes/hook-functions.php:242
+msgid "Yes"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:215
+#: includes/megamenu/includes/hook-functions.php:241
+msgid "No"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:218
+msgid "Edit Megamenu Submenu"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:223
+msgid "Sub Megamenu Width"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:226
+msgid "Full Width"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:227
+msgid "Stretch Width"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:233
+msgid "Sub Mega Menu Max Width"
+msgstr ""
+
+#: includes/megamenu/includes/hook-functions.php:239
+msgid "Sub Mega Menu Position Left"
+msgstr ""
+
+#: includes/merlin/class-import.php:30
+msgid "Pages + Menu"
+msgstr ""
+
+#: includes/merlin/class-import.php:55
+msgid "Header Footer Builder"
+msgstr ""
+
+#: includes/merlin/class-import.php:56
+msgid "Install hf.xml"
+msgstr ""
+
+#: includes/merlin/class-import.php:57 includes/merlin/class-import.php:68
+#: includes/merlin/class-import.php:79 includes/merlin/class-import.php:90
+#: includes/merlin/class-merlin.php:2018 includes/merlin/class-merlin.php:2031
+#: includes/merlin/class-merlin.php:2044 includes/merlin/class-merlin.php:2057
+#: includes/merlin/class-merlin.php:2070 includes/merlin/class-merlin.php:2083
+msgid "Pending"
+msgstr ""
+
+#: includes/merlin/class-import.php:58 includes/merlin/class-import.php:69
+#: includes/merlin/class-import.php:80 includes/merlin/class-import.php:91
+#: includes/merlin/class-merlin.php:1778 includes/merlin/class-merlin.php:1794
+#: includes/merlin/class-merlin.php:2019 includes/merlin/class-merlin.php:2032
+#: includes/merlin/class-merlin.php:2045 includes/merlin/class-merlin.php:2058
+#: includes/merlin/class-merlin.php:2071 includes/merlin/class-merlin.php:2084
+#: includes/merlin/class-merlin.php:2127
+msgid "Installing"
+msgstr ""
+
+#: includes/merlin/class-import.php:59 includes/merlin/class-import.php:70
+#: includes/merlin/class-import.php:81 includes/merlin/class-import.php:92
+#: includes/merlin/class-merlin.php:1807 includes/merlin/class-merlin.php:2020
+#: includes/merlin/class-merlin.php:2033 includes/merlin/class-merlin.php:2046
+#: includes/merlin/class-merlin.php:2059 includes/merlin/class-merlin.php:2072
+#: includes/merlin/class-merlin.php:2085
+msgid "Success"
+msgstr ""
+
+#: includes/merlin/class-import.php:66 includes/merlin/class-import.php:77
+msgid "Woocommerce Product Sample"
+msgstr ""
+
+#: includes/merlin/class-import.php:67 includes/merlin/class-import.php:78
+msgid "Install woocommerce.xml"
+msgstr ""
+
+#: includes/merlin/class-import.php:88
+msgid "All Pages + Menu"
+msgstr ""
+
+#: includes/merlin/class-import.php:89
+msgid "Install allpages.xml"
+msgstr ""
+
+#: includes/merlin/class-import.php:321
+msgid "Theme Setup"
+msgstr ""
+
+#: includes/merlin/class-import.php:324
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: includes/merlin/class-import.php:325
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/merlin/class-import.php:326
+msgid "Disable this wizard"
+msgstr ""
+
+#: includes/merlin/class-import.php:328
+msgid "Skip"
+msgstr ""
+
+#: includes/merlin/class-import.php:329
+msgid "Next"
+msgstr ""
+
+#: includes/merlin/class-import.php:330
+msgid "Start"
+msgstr ""
+
+#: includes/merlin/class-import.php:331
+msgid "Cancel"
+msgstr ""
+
+#: includes/merlin/class-import.php:335
+msgid "Import"
+msgstr ""
+
+#: includes/merlin/class-import.php:337
+msgid "Later"
+msgstr ""
+
+#: includes/merlin/class-import.php:340
+#. translators: Theme Name
+msgid "Activate %s"
+msgstr ""
+
+#: includes/merlin/class-import.php:342
+#. translators: Theme Name
+msgid "%s is Activated"
+msgstr ""
+
+#: includes/merlin/class-import.php:344
+#. translators: Theme Name
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+
+#: includes/merlin/class-import.php:345
+msgid "License key"
+msgstr ""
+
+#: includes/merlin/class-import.php:346
+msgid "The theme is already registered, so you can go to the next step!"
+msgstr ""
+
+#: includes/merlin/class-import.php:347
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+
+#: includes/merlin/class-import.php:348
+msgid "Need help?"
+msgstr ""
+
+#: includes/merlin/class-import.php:351
+#. translators: Theme Name
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/merlin/class-import.php:352
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: includes/merlin/class-import.php:353
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+
+#: includes/merlin/class-import.php:354
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: includes/merlin/class-import.php:356
+msgid "Install Child Theme"
+msgstr ""
+
+#: includes/merlin/class-import.php:357
+msgid "You're good to go!"
+msgstr ""
+
+#: includes/merlin/class-import.php:358
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: includes/merlin/class-import.php:359
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+
+#: includes/merlin/class-import.php:360
+msgid "Learn about child themes"
+msgstr ""
+
+#: includes/merlin/class-import.php:361
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: includes/merlin/class-import.php:362
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: includes/merlin/class-import.php:365
+msgid "You're up to speed!"
+msgstr ""
+
+#: includes/merlin/class-import.php:366
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: includes/merlin/class-import.php:367
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press "
+"\"Next\" to continue the setup wizard."
+msgstr ""
+
+#: includes/merlin/class-import.php:370
+msgid "Import Content"
+msgstr ""
+
+#: includes/merlin/class-import.php:371
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+
+#: includes/merlin/class-import.php:374
+msgid "All done. Have fun!"
+msgstr ""
+
+#: includes/merlin/class-import.php:377
+#. translators: Theme Author
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: includes/merlin/class-import.php:378
+msgid "Extras"
+msgstr ""
+
+#: includes/merlin/class-import.php:379
+msgid "View your website"
+msgstr ""
+
+#: includes/merlin/class-import.php:380
+msgid "Explore WordPress"
+msgstr ""
+
+#: includes/merlin/class-import.php:381
+msgid "Get Theme Support"
+msgstr ""
+
+#: includes/merlin/class-import.php:382
+msgid "Start Customizing"
+msgstr ""
+
+#: includes/merlin/class-import.php:639 includes/merlin/class-import.php:640
+#: includes/merlin/class-import.php:790
+msgid "Setup Header Footer"
+msgstr ""
+
+#: includes/merlin/class-import.php:649
+msgid "Elementor Header & Footer Builder "
+msgstr ""
+
+#: includes/merlin/class-import.php:657
+msgid "All Templates"
+msgstr ""
+
+#: includes/merlin/class-import.php:663
+msgid "About Us"
+msgstr ""
+
+#: includes/merlin/class-import.php:714
+msgid "Success! Have been setup for your website"
+msgstr ""
+
+#: includes/merlin/class-import.php:739
+#: includes/merlin/includes/settings.php:56
+msgid "Footer"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:470
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:616
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:621
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:730
+msgid "Welcome"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:737
+msgid "Child"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:743
+#: includes/merlin-ext/class-extension.php:170
+#: includes/merlin-ext/class-extension.php:360
+msgid "License"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:751
+msgid "Plugins"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:765
+msgid "Ready"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:870
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:965
+msgid "The license activation step has been displayed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1037
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1127
+msgid "req"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1167
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1217
+msgid "Select Demo"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1255
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1335
+msgid "The final step has been displayed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1412
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1429
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1450
+msgid "Yikes! The theme activation failed. Please try again or contact support."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1459
+msgid "Please add your license key before attempting to activate one."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1472
+msgid "The license activation was performed with the following results"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1518 includes/merlin/class-merlin.php:1559
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1531
+#. translators: Expiration date
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1537
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1541
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1546
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1551
+#. translators: EDD Item Name
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1555
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1650
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1681
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1715
+msgid ""
+"The child theme screenshot was copied to the child theme, with the "
+"following result"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1717
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1746
+msgid "Activating"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1762
+msgid "Updating"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1786
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1798
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1830
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1835
+msgid "Invalid content!"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1846
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1888
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1899
+msgid "Error"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1913
+msgid ""
+"The content importer AJAX call for retrieving total content import items "
+"failed to start, because of incorrect data."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:1918
+msgid "Invalid data!"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2017
+msgid "Demo content data."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2029
+msgid "Widgets"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2030
+msgid "Sample widgets data."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2043
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2055 includes/merlin/class-merlin.php:2398
+msgid "Home Page"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2056
+msgid "Install homepage xml."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2068
+msgid "Redux Options"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2069
+msgid "Redux framework options."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2081
+msgid "After import setup"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2082
+msgid "After import setup."
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2111
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2148
+msgid "The home page was set"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2158
+msgid "The blog page was set"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2173
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2198
+msgid ""
+"This predefined demo import does not have the name parameter: "
+"import_file_name"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2397
+msgid "All Page + Image"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2401
+msgid "Header + Footer + Breadcrumb"
+msgstr ""
+
+#: includes/merlin/class-merlin.php:2406
+msgid "Setup Theme"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:36
+#: includes/merlin/includes/breadcrumb.php:38
+#: includes/merlin/includes/breadcrumb.php:78
+#: includes/merlin/includes/breadcrumb.php:79
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:37
+#: includes/merlin/includes/breadcrumb.php:39
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:40
+msgid "Add New"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:41
+msgid "Add New Breadcrumb"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:42
+msgid "New Header Footer & Blocks Template"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:43
+msgid "Edit Header Footer & Blocks Template"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:44
+msgid "View Header Footer & Blocks Template"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:45
+msgid "All Breadcrumb"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:46
+msgid "Search Header Footer & Blocks Templates"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:47
+msgid "Parent Header Footer & Blocks Templates:"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:48
+msgid "No Header Footer & Blocks Templates found."
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:49
+msgid "No Header Footer & Blocks Templates found in Trash."
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:92
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:120
+msgid "Display On"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:122
+msgid "Add locations for where this template should appear."
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:130
+msgid "Display Rules"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:134
+msgid "Add Display Rule"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:143
+msgid "Do Not Display On"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:145
+msgid "Add locations for where this template should not appear."
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:152
+msgid "Exclude On"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:155
+msgid "Add Exclusion Rule"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:165
+msgid "User Roles"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:166
+msgid "Display custom template based on user role."
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:173
+msgid "Users"
+msgstr ""
+
+#: includes/merlin/includes/breadcrumb.php:176
+msgid "Add User Rule"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-customizer-importer.php:57
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-customizer-importer.php:70
+msgid ""
+"Error: The customizer import file does not have any content in it. Please "
+"make sure to use the correct customizer import file."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-customizer-importer.php:80
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-customizer-importer.php:86
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You "
+"can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-downloader.php:49
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-downloader.php:66
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-downloader.php:84
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:144
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:165
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:256
+msgid "Imported"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:260
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:266
+msgid "No Title"
+msgstr ""
+
+#: includes/merlin/includes/class-merlin-widget-importer.php:328
+msgid "No results for widget import!"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:14
+msgid ""
+"Display a list of attributes to filter products in your store.(Organey "
+"custom)"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:16
+msgid "Organey Filter Products by Attribute"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:66
+msgid "Filter by"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:72
+msgid "Attribute"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:78
+msgid "Query type"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-layered-nav.php:81
+msgid "OR"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:41
+msgid "A list or dropdown of product brands."
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:43
+#: includes/merlin/includes/class-wc-widget-product-brands.php:47
+msgid "Product Brands"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:53
+msgid "Show as dropdown"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:58
+msgid "Show logo brand"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:63
+msgid "Show product counts"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:68
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:73
+msgid "Only show children of the current brand"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:78
+msgid "Hide empty brands"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:83
+msgid "Maximum depth"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:238
+msgid "No product brands exist."
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:263
+msgid "All Brands"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:264
+msgid "Parent Brand"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:265
+msgid "Parent Brand:"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:266
+msgid "New Brand Name"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:267
+msgid "Add New Brands"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:268
+msgid "Edit Brand"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:269
+msgid "Update Brand"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:270
+msgid "Separate Brand with commas"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:271
+msgid "Search Brands"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:272
+msgid "Add or remove Brands"
+msgstr ""
+
+#: includes/merlin/includes/class-wc-widget-product-brands.php:273
+msgid "Choose from the most used Brands"
+msgstr ""
+
+#: includes/merlin/includes/product-360-view.php:36
+#: includes/merlin/includes/product-360-view.php:56
+msgid "Delete image"
+msgstr ""
+
+#: includes/merlin/includes/product-360-view.php:36
+#: includes/merlin/includes/product-360-view.php:56
+msgid "Delete"
+msgstr ""
+
+#: includes/merlin/includes/product-360-view.php:56
+msgid "Add Images to Product 360 view Gallery"
+msgstr ""
+
+#: includes/merlin/includes/product-360-view.php:56
+msgid "Add to gallery"
+msgstr ""
+
+#: includes/merlin/includes/product-360-view.php:56
+msgid "Add product 360 view gallery images"
+msgstr ""
+
+#: includes/merlin/includes/product-360-view.php:65
+msgid "Product 360 View Gallery (optional)"
+msgstr ""
+
+#: includes/merlin/includes/recent-post.php:9
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/merlin/includes/recent-post.php:58
+msgid "(no title)"
+msgstr ""
+
+#: includes/merlin/includes/settings.php:38
+msgid "Custom Setup Themes"
+msgstr ""
+
+#: includes/merlin/includes/settings.php:43
+msgid "Setup Themes"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension "
+"on your server"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:227
+msgid "Content imported "
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:256
+msgid "Content import start error: "
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:288
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:173
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:291
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:364
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/Importer.php:512
+msgid "New AJAX call!"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:514
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:770
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:780
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:858
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:872
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:904
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1822
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:909
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:949
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1094
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1593
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1614
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1618
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1783
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1827
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1886
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1947
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1969
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1975
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2000
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2013
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2018
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2032
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2037
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2063
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2119
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2124
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2146
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2150
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2164
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2168
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2185
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2216
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2226
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2236
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2244
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2258
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2277
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2287
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2322
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: includes/merlin/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2331
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:168
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:182
+msgid "Content Width"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:185
+msgid "Sets the default width of the content area (Default: 1140)"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:217
+msgid "Blog Style"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:220
+msgid "Standard"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:246
+msgid "Product Catalog"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:250
+msgid "Product Hover Effect"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:255
+msgid "Zoom in"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:257
+msgid "Top to bottom"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:258
+msgid "Bottom to top"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:259
+msgid "Left to right"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:260
+msgid "Right to left"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:265
+#: includes/merlin-ext/class-extension.php:277
+msgid "Shop page display"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:269
+#: includes/merlin-ext/class-extension.php:281
+msgid "Show products"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:270
+#: includes/merlin-ext/class-extension.php:282
+msgid "Show categories"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:271
+#: includes/merlin-ext/class-extension.php:283
+msgid "Show categories & products"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:273
+msgid "Choose what to display on the main shop page."
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:285
+msgid "Choose what to display on product category pages."
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:289
+msgid "Default product sorting"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:293
+msgid "Default sorting (custom ordering + name)"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:294
+msgid "Popularity (sales)"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:295
+msgid "Average rating"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:296
+msgid "Sort by most recent"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:297
+msgid "Sort by price (asc)"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:298
+msgid "Sort by price (desc)"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:300
+msgid "How should products be sorted in the catalog by default?"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:304
+msgid "Products per row"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:320
+msgid "Laptop"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:324
+msgid "Tablet Extra"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:332
+msgid "Mobile Extra"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:340
+msgid "How many products should be shown per row?"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:344
+msgid "Rows per page"
+msgstr ""
+
+#: includes/merlin-ext/class-extension.php:347
+msgid "How many rows of products should be shown per page?"
+msgstr ""
+
+#: includes/modules/class-login.php:33
+msgid "Wrong username or password."
+msgstr ""
+
+#: includes/modules/class-login.php:39
+msgid "Signin successful, redirecting..."
+msgstr ""
+
+#: includes/template-functions.php:77 includes/template-functions.php:100
+msgid "Posted by"
+msgstr ""
+
+#: includes/template-functions.php:91
+msgid "Categories:"
+msgstr ""
+
+#: includes/template-functions.php:111
+msgid "Comments"
+msgstr ""
+
+#: includes/template-functions.php:114
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/template-functions.php:125 includes/template-functions.php:139
+#: includes/template-functions.php:155
+msgid "Dashboard"
+msgstr ""
+
+#: includes/template-functions.php:142
+msgid "Orders"
+msgstr ""
+
+#: includes/template-functions.php:145
+msgid "Downloads"
+msgstr ""
+
+#: includes/template-functions.php:148
+msgid "Edit Address"
+msgstr ""
+
+#: includes/template-functions.php:151
+msgid "Account Details"
+msgstr ""
+
+#: includes/template-functions.php:159
+msgid "Log out"
+msgstr ""
+
+#: includes/template-functions.php:159
+msgid "Log Out"
+msgstr ""
+
+#: includes/template-functions.php:173
+msgid "Sign in"
+msgstr ""
+
+#: includes/template-functions.php:187
+msgid "Username or email"
+msgstr ""
+
+#: includes/template-functions.php:191
+msgid "Password"
+msgstr ""
+
+#: includes/template-functions.php:198
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/template-functions.php:203
+msgid "No account yet?"
+msgstr ""
+
+#: includes/template-functions.php:206 includes/template-functions.php:208
+msgid "Register"
+msgstr ""
+
+#: includes/template-functions.php:206 includes/template-functions.php:208
+msgid "Create an Account"
+msgstr ""
+
+#: includes/template-functions.php:273 includes/template-functions.php:283
+msgid "Mobile Navigation"
+msgstr ""
+
+#: includes/template-functions.php:341
+msgid "Language:"
+msgstr ""
+
+#: includes/template-functions.php:414
+msgid "Share on facebook"
+msgstr ""
+
+#: includes/template-functions.php:432
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: includes/template-functions.php:434
+msgid "Linkedin"
+msgstr ""
+
+#: includes/template-functions.php:442 woocommerce/wishlist.php:21
+msgid "Pinterest"
+msgstr ""
+
+#: includes/template-functions.php:448
+msgid "Email to a Friend"
+msgstr ""
+
+#: includes/template-functions.php:450
+#: woocommerce/single-product-reviews.php:142
+msgid "Email"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-brand.php:33
+#: includes/woocommerce/class-woocommerce-brand.php:69
+msgid "Add Image"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-brand.php:34
+#: includes/woocommerce/class-woocommerce-brand.php:70
+msgid "Remove Image"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:38
+msgid "Organey settings"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:74
+msgid "Select size chart"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:101
+msgid "Size chart"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:107
+msgid "Size chart will take type of templates is section"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:112
+msgid "Url Video"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:116
+msgid "Extra info"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce-settings.php:158
+msgid "Size Guide"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:80
+msgid "Sale quantity"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:81
+msgid ""
+"Set this quantity will make the product to be a deal. The sale will end "
+"when this quantity is sold out."
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:87
+msgid "%s product is sold"
+msgid_plural "%s products are sold"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/woocommerce/class-woocommerce.php:272
+msgid "WooCommerce Shop"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:274
+#: includes/woocommerce/class-woocommerce.php:283
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:281
+msgid "WooCommerce Detail"
+msgstr ""
+
+#: includes/woocommerce/class-woocommerce.php:375
+msgid "Logout"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-functions.php:82
+msgid "No results"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:36
+msgid "View your shopping cart"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:39
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:54
+msgid "Shopping cart"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:146
+msgid "Ends in: "
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:150
+msgid "d"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:154
+msgid "h"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:158
+msgid "m"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:162
+msgid "s"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:199
+msgid "Mins"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:203
+msgid "Secs"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:232
+msgid "Already: "
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:235
+msgid "Already Sold: "
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:251
+msgid "Out Of Stock"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:318
+msgid "Wishlist page"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:338
+msgid "Show filter"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:350
+msgid "HIDE FILTER"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:471
+msgid "More products"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:514
+msgid "Search for:"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:515
+msgid "Search products&hellip;"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:673
+msgid "Sale"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:678
+#: woocommerce/wishlist-table.php:39
+msgid "Out of stock"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:719
+msgid "Grid View"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:719
+msgid "grid button"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:722
+msgid "List View"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:722
+msgid "list button"
+msgstr ""
+
+#: template-parts/404.php:18
+msgid "Page not found."
+msgstr ""
+
+#: template-parts/404.php:19
+msgid ""
+"Sorry, we couldn't find the page you where looking for. We suggest that you "
+"return to home page."
+msgstr ""
+
+#: template-parts/404.php:20
+msgid "Go back"
+msgstr ""
+
+#: template-parts/author-bio.php:9
+msgid "About author"
+msgstr ""
+
+#: template-parts/author-bio.php:16
+msgid "View more posts"
+msgstr ""
+
+#: template-parts/comment.php:18
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: template-parts/comment.php:45
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content/default.php:20 template-parts/content/excerpt.php:38
+#. translators: %s: post title
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content/default.php:27 template-parts/content/excerpt.php:42
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/footer.php:16
+msgid "Coppyright"
+msgstr ""
+
+#: template-parts/footer.php:16
+msgid ". All Rights Reserved."
+msgstr ""
+
+#: template-parts/header.php:24
+msgid "Home"
+msgstr ""
+
+#: template-parts/search.php:17
+msgid "Search results for: "
+msgstr ""
+
+#: template-parts/search.php:33
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/single.php:50
+msgid "Tagged "
+msgstr ""
+
+#: template-parts/single.php:67
+msgid "NEXT POST"
+msgstr ""
+
+#: template-parts/single.php:68
+msgid "PREVIOUS POST"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:81
+#: woocommerce/wishlist-table.php:10 woocommerce/wishlist-table.php:38
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:87
+#: woocommerce/global/quantity-input.php:28
+#: woocommerce/global/quantity-input.php:30
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:109
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:121 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:147
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:155
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:91
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:28
+#. translators: %s: Quantity.
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:47
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#. translators: 1: reviews count 2: product name
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:55
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Write A Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+#. translators: %s is product title
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:124
+#. translators: %s is product title
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:167
+#. translators: %s opening and closing link tags respectively
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:171
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:172
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:173
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:174
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:175
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:176
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:177
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:181
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:188
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/wishlist-table.php:11 woocommerce/wishlist-table.php:39
+msgid "Stock status"
+msgstr ""
+
+#: woocommerce/wishlist-table.php:39
+msgid "In stock"
+msgstr ""
+
+#: woocommerce/wishlist-table.php:46
+msgid "There are no products on the wishlist!"
+msgstr ""
+
+#: woocommerce/wishlist.php:18
+msgid "Share on:"
+msgstr ""
+
+#: woocommerce/wishlist.php:22
+msgid "Mail"
+msgstr ""
+
+#: woocommerce/wishlist.php:28
+msgid "Wishlist link:"
+msgstr ""
+
+#: woocommerce/wishlist.php:30
+msgid "Copy"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Organey"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.leebrosus.com/organey/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Organey is an elegant and attractive WooCommerce WordPress Theme for "
+"product landing page purposes. Organey integrates with the best eCommerce "
+"solution - WooCommerce plugin, so you can sell anything online easily. You "
+"can use Organey as a shopping website, or a showcase website for your "
+"stunning products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "HP"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://leebrosus.com/"
+msgstr ""
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:32
+#. translators: 1: number of comments
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:1206
+#: includes/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2427
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2473
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/elementor/widgets/breadcurmb.php:188
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: includes/woocommerce/woocommerce-template-functions.php:516
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:43
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""

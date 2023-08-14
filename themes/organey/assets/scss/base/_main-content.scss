@@ -1,0 +1,44 @@
+.site-content {
+    outline: none;
+}
+
+@include susy-media($desktop) {
+
+    .content-area {
+        width: 100%;
+        float: left;
+
+        .organey-content-has-sidebar & {
+            width: calc(100% - 360px);
+        }
+
+        .organey-sidebar-left & {
+            float: right;
+        }
+    }
+
+    .widget-area {
+        width: 320px;
+        float: right;
+
+        .organey-sidebar-left & {
+            float: left;
+        }
+    }
+
+    .left-sidebar {
+        .content-area {
+            float: right;
+        }
+
+        .widget-area {
+
+            float: left;
+        }
+    }
+
+    .content-area,
+    .widget-area {
+        margin-bottom: ms(4);
+    }
+}

@@ -1,0 +1,114 @@
+.elementor-testimonial-item {
+    .inner {
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    .content {
+        font-size: 16px;
+        color: var(--accent);
+        margin-bottom: 25px;
+    }
+
+    .details {
+        display: flex;
+        align-items: center;
+
+        .name {
+            font-weight: 700;
+            @include opal-color(heading);
+            margin-right: 8px;
+            font-size: 18px;
+        }
+
+        .job {
+            font-size: 14px;
+        }
+    }
+}
+
+.elementor-testimonial-style-1 {
+    .elementor-testimonial-item {
+        .inner {
+            padding: 0 40px 40px;
+        }
+
+        .elementor-testimonial-image {
+            margin-bottom: 5px;
+            transform: translateY(-50%);
+            position: relative;
+
+            &:after {
+                content: themecustom-char(quote);
+                @include themecustom-icon;
+                @include opal-color(primary);
+                position: absolute;
+                right: 0;
+                font-size: 40px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+.elementor-testimonial-style-2 {
+    .elementor-testimonial-item {
+        .testimonial-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .elementor-testimonial-image {
+                margin-right: 25px;
+                @include susy-media(max-width 500px){
+                    width: 100%;
+                }
+            }
+
+            .content {
+                flex: 1;
+                margin-bottom: 0;
+            }
+
+            .testimonial-caption {
+                width: 100%;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+.elementor-testimonial-style-3{
+    .elementor-testimonial-item{
+        .testimonial-content{
+            position: relative;
+            padding-top: 80px;
+            display: flex;
+            flex-direction: column;
+            &:after {
+                content: themecustom-char(quote);
+                @include themecustom-icon;
+                @include opal-color(primary);
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                font-size: 40px;
+            }
+        }
+
+        .elementor-testimonial-image{
+            margin-bottom: 20px;
+        }
+
+        .content{
+            order: -1;
+            font-size: 20px;
+        }
+
+        .details{
+            display: block;
+            align-items: inherit;
+        }
+    }
+}

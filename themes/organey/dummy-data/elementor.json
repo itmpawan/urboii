@@ -1,0 +1,161 @@
+{
+    "system_colors": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "color": "#5C9963"
+        },
+        {
+            "_id": "primary_hover",
+            "title": "Primary Hover",
+            "color": "#528959"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary",
+            "color": "#FFA900"
+        },
+        {
+            "_id": "secondary_hover",
+            "title": "Secondary Hover",
+            "color": "#ff8d00"
+        },
+        {
+            "_id": "text",
+            "title": "Text",
+            "color": "#656766"
+        },
+        {
+            "_id": "accent",
+            "title": "Heading",
+            "color": "#2F3E30"
+        },
+        {
+            "_id": "border",
+            "title": "Border",
+            "color": "#E4E4E4"
+        },
+        {
+            "_id": "light",
+            "title": "Light",
+            "color": "#9f9f9f"
+        }
+    ],
+    "custom_colors": [],
+    "system_typography": [
+        {
+            "_id": "heading_title",
+            "title": "Heading Title",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+            },
+            "typography_font_size_tablet": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+            },
+            "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 24,
+                "sizes": []
+            },
+            "typography_line_height": {
+                "unit": "px",
+                "size": 40,
+                "sizes": []
+            },
+            "typography_line_height_mobile": {
+                "unit": "px",
+                "size": 34,
+                "sizes": []
+            }
+        },
+        {
+            "_id": "heading_text",
+            "title": "Heading Text",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 24,
+                "sizes": []
+            },
+            "typography_font_size_mobile": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+            },
+            "typography_line_height": {
+                "unit": "px",
+                "size": 34,
+                "sizes": []
+            },
+            "typography_line_height_mobile": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+            }
+        },
+        {
+            "_id": "heading_banner",
+            "title": "Heading Banner",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 24,
+                "sizes": []
+            },
+            "typography_line_height": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+            }
+        },
+        {
+            "_id": "heading_footer",
+            "title": "heading Footer",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_font_size": {
+                "unit": "px",
+                "size": 16,
+                "sizes": []
+            },
+            "typography_line_height": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+            }
+        }
+    ],
+    "custom_typography": [],
+    "default_generic_fonts": "Sans-serif",
+    "site_name": "Organey",
+    "site_description": "Just another WordPress site",
+    "page_title_selector": "h1.entry-title",
+    "activeItemIndex": 1,
+    "container_width": {
+        "unit": "px",
+        "size": 1290,
+        "sizes": []
+    },
+    "space_between_widgets": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+    },
+    "viewport_md": 768,
+    "viewport_lg": 1025,
+    "viewport_mobile": 767,
+    "viewport_tablet": 1024
+}

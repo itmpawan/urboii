@@ -1,0 +1,146 @@
+.skeleton-body {
+    .skeleton-item {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0),
+            linear-gradient(var(--background_light) 100%, transparent 0);
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 80%);
+            animation: skeletonloading 1.5s infinite;
+        }
+    }
+
+    .skeleton-product {
+        &:before {
+            padding-top: calc(100% + 120px);
+            background-size: 100% 80%, 55% 15px, 85% 20px, 55% 15px;
+            background-position: left 0, center calc(80% + 25px), center calc(80% + 55px), center calc(80% + 85px);
+        }
+    }
+
+    .skeleton-product-list-2 {
+        border-bottom: 1px solid var(--border);
+        &:before {
+            height: 110px;
+            background-size: 110px 100%, calc(100% - 120px) 20px, calc(70% - 120px) 15px, calc(80% - 120px) 20px;
+            background-position: left 0, 130px 0, 130px 30px, 130px 60px;
+            margin: 15px 0;
+        }
+    }
+    .skeleton-widget {
+        &:before {
+            height: 315px;
+            background-size: 100% 30px, 70% 20px, 50% 20px, 80% 20px, 40% 20px, 30% 20px, 50% 20px;
+            background-position: left 10px, left 65px, left 105px, left 145px, left 185px, left 225px, left 265px;
+        }
+    }
+
+    .skeleton-post-grid-style-1 {
+        &:before {
+            padding-top: 80%;
+            background-size: 100% calc(100% - 70px), 55% 15px, 85% 25px;
+            background-position: left 0, left calc(100% - 40px), left calc(100% - 5px);
+        }
+    }
+
+    .skeleton-post-grid-style-2 {
+        &:before {
+            padding-top: 80%;
+            background-size: 100% calc(100% - 100px), 55% 15px, 85% 20px, 55% 15px;
+            background-position: center 0, center calc(100% - 70px), center calc(100% - 40px), center 100%;
+        }
+    }
+
+    .skeleton-single-product-summary {
+        &:nth-child(even):before {
+            margin-bottom: 2rem;
+            min-height: 285px;
+            background-size: 50% 25px, 24% 20px, 34% 30px, 100% 90px, 30% 30px, 52% 30px, 30% 30px, 52% 30px;
+            background-position: left 0,left 35px,left 65px,left 105px,left 215px,calc(31% * 100 / (100 - 52)) 215px,left 255px,calc(31% * 100 / (100 - 52)) 255px;
+        }
+        &:nth-child(odd):before {
+            margin-bottom: 2rem;
+            min-height: 185px;
+            background-size: 30% 30px, 52% 30px, 50% 30px, 40% 30px, 49% 35px, 49% 35px;
+            background-position: left 0,calc(31% * 100 / (100 - 52)) 0,left 50px,calc(51% * 100 / (100 - 40)) 50px,left 100px,100% 100px;
+        }
+    }
+
+    .skeleton-single-product-image{
+        &:before{
+            padding-top: 125%;
+            background-size: 100% 78%, 18% 16%, 18% 16%, 18% 16%, 18% 16%;
+            background-position: left 0,0 95%,calc(20% * 100 / (100 - 18)) 95%,calc(40% * 100 / (100 - 18)) 95%,calc(60% * 100 / (100 - 18)) 95%;
+        }
+    }
+
+    .skeleton-blog-thumbnail{
+        &:before{
+            padding-bottom: 69.2307692308%;
+            background-size: 100% 100%;
+            background-position: left 0;
+        }
+    }
+
+    .skeleton-product-sorting{
+        &:before{
+            background-size: 100% 60px;
+            background-position: left 0;
+            padding: 15px 0;
+        }
+    }
+
+    .skeleton-image-box{
+        position: relative;
+        &:before{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-size: 100% calc(100% - 50px), 45% 20px, 70% 15px;
+            background-position: left 0, left calc(100% - 20px), left 100%;
+        }
+    }
+}
+
+
+@keyframes skeletonloading {
+    from {
+        transform: skewX(-45deg) translateX(-80%);
+    }
+    to {
+        transform: skewX(-45deg) translateX(80%);
+    }
+}
+

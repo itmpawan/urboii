@@ -1,0 +1,259 @@
+/**
+ * Password strength meter
+ */
+.woocommerce-password-strength {
+    font-weight: 600;
+    padding: ms(-3) 0;
+    text-align: right;
+    font-size: ms(-1);
+
+    &.strong {
+        color: $success;
+    }
+
+    &.short {
+        color: $error;
+    }
+
+    &.bad {
+        color: $error;
+    }
+
+    &.good {
+        color: $info;
+    }
+}
+
+/**
+ * My Account
+ */
+
+.woocommerce-account {
+    .woocommerce {
+        @include clearfix;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+}
+
+
+label.inline {
+    display: inline !important;
+    margin-left: ms(1);
+}
+
+.woocommerce-MyAccount-navigation {
+
+    ul {
+        margin-top: 0!important;
+        margin-left: 0!important;
+        border-top: 1px solid;
+        @include opal-border-color(border);
+        li {
+            list-style: none!important;
+            position: relative;
+            border-bottom: 1px solid;
+            @include opal-border-color(border);
+
+            &.woocommerce-MyAccount-navigation-link {
+                a {
+                    text-decoration: none;
+                    margin: 15px 0;
+                    padding: 0 5px;
+                    display: block;
+                    @include opal-color(heading);
+                    font-weight: 600;
+                    line-height: 28px;
+                    &:hover {
+                        @include opal-color(primary);
+                    }
+                    &:before{
+                        @include themecustom-icon;
+                        float: right;
+                    }
+                }
+
+
+                &.is-active {
+                    a {
+                        @include opal-color(primary);
+                    }
+                }
+
+                &.woocommerce-MyAccount-navigation-link--dashboard a::before {
+                    content: themecustom-char(tachometer-alt);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--orders a::before {
+                    content: themecustom-char(shopping-cart);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--downloads a::before {
+                    content: themecustom-char(file-archive);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--edit-address a::before {
+                    content: themecustom-char(home);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--payment-methods a::before {
+                    content: themecustom-char(credit-card);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--edit-account a::before {
+                    content: themecustom-char(user);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--customer-logout a::before {
+                    content: themecustom-char(sign-out-alt);
+                }
+
+                &.woocommerce-MyAccount-navigation-link--subscriptions a::before {
+                    content: themecustom-char(sync);
+                }
+            }
+        }
+    }
+}
+
+ul.order_details {
+    @include clearfix;
+    list-style: none;
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto ms(3);
+    li {
+        padding: 1em ms(3);
+        text-align: center;
+        @include opal-border-color(border);
+        &:first-child {
+            padding-top: ms(3);
+            border: 0;
+        }
+
+        &:last-child {
+            padding-bottom: ms(3);
+            @include clearfix;
+        }
+
+        strong {
+            display: block;
+            text-transform: none;
+            @include opal-color(heading);
+        }
+    }
+}
+
+.my_account_orders,
+.woocommerce-MyAccount-downloads {
+    .button {
+        padding: ms(-2) ms(-1);
+        font-size: ms(-1);
+        margin-right: 0.236em;
+    }
+}
+
+.woocommerce-MyAccount-content {
+    h2 {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    #payment {
+        .payment_methods {
+            margin-bottom: ms(3) !important;
+        }
+    }
+}
+
+/**
+ * My Account
+ */
+.woocommerce-MyAccount-content {
+    .woocommerce-Pagination {
+        text-align: center;
+    }
+
+    table {
+        th {
+            @include opal-color(heading);
+
+        }
+        thead {
+            th {
+                background-color: rgba(0, 0, 0, .05);
+            }
+        }
+        tbody {
+
+        }
+        tr:nth-of-type(even) {
+            background-color: rgba(0, 0, 0, .05);
+        }
+    }
+
+    .order_details {
+        a:not(.button) {
+            @include opal-color(heading);
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .product-quantity {
+            @include opal-color(light);
+        }
+
+        .product-total {
+            .amount {
+                font-weight: 700;
+            }
+        }
+
+        tfoot {
+            .amount {
+                font-weight: 700;
+                font-size: ms(2);
+                @include opal-color(heading);
+            }
+        }
+    }
+
+    .order-again {
+        margin-bottom: ms(6);
+    }
+}
+
+form.woocommerce-form-register {
+
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+form.woocommerce-form-login {
+
+    .woocommerce-form-login-wrap {
+        padding: 50px;
+        background: #f6f6f6;
+        margin-bottom: 30px;
+    }
+
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+        border-radius: 6px;
+    }
+
+    .woocommerce-form__label-for-checkbox {
+        display: flex;
+        align-items: center;
+    }
+
+    .woocommerce-LostPassword {
+        margin-left: auto;
+    }
+}

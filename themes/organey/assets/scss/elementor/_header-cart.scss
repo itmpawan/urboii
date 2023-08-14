@@ -1,0 +1,107 @@
+.site-header-cart-side {
+    .widget_shopping_cart {
+        margin-bottom: 0;
+        position: relative;
+        flex: 1 1 auto;
+        display: flex;
+        .woocommerce-mini-cart__empty-message {
+            &:before{
+                @include themecustom-icon();
+                content: themecustom-char(cart-empty);
+                text-align: center;
+                display: block;
+                font-size: 120px;
+                color: var(--light);
+            }
+            text-align: center;
+            //text-align: center;
+            font-size: 16px;
+            margin: 15px;
+        }
+
+        .widget_shopping_cart_content {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 auto;
+        }
+
+        .woocommerce-mini-cart__total {
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .woocommerce-mini-cart-scroll {
+            position: relative;
+            flex: 1 1 auto;
+            overflow-y: auto;
+            padding-right: 15px;
+            margin-right: -15px;
+        }
+
+        .product_list_widget {
+            position: absolute;
+            //width: 100%;
+            top: 0;
+            right: 15px;
+            bottom: 0;
+            left: 0;
+
+            li {
+                padding: 15px 45px 15px 15px;
+                border-bottom: 1px solid;
+                @include opal-border-color(border);
+                margin-bottom: 0;
+                &:last-child{
+                    border-bottom: 0;
+                }
+                img {
+                    max-width: 80px;
+                    border: 1px solid var(--border);
+                }
+                a.remove{
+                    top: 15px;
+                    right: 19px;
+                }
+            }
+        }
+
+        p.total strong {
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .buttons{
+            padding: 0 15px;
+             a {
+                border: 2px solid;
+                @include opal-border-color(border);
+                margin-top: 15px;
+                margin-bottom: 20px;
+                &.wc-forward{
+                    border: 2px solid;
+                    @include opal-border-color(border);
+                    &:hover{
+                        @include opal-border-color(primary);
+                    }
+                }
+                &.checkout {
+                    margin-top: 0;
+                    @include opal-border-color(primary);
+                }
+            }
+        }
+    }
+}
+
+.hide-count-cart-yes {
+    .site-header-cart .cart-contents .count {
+        display: none;
+    }
+}
+.hide-price-cart-yes{
+    .site-header-cart .cart-contents .amount{
+        display: none;
+    }
+}

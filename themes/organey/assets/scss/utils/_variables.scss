@@ -1,0 +1,64 @@
+// Some common variables and mixins to get you started.
+// Variables allow you to re-use colors, sizes, and other values without repeating
+// yourself. This means that changes that should be small, such as tweaking the
+// coloring or the sizing, can be done in one place, not all over the stylesheet.
+$base-font: "Poppins";
+$heading-font: "Poppins";
+
+$ms-base: 1em, 0.875em;
+$ms-ratio: 1.618;
+
+$font-normal: 400;
+$font-bold: 600;
+
+$primary-color: #5C9963;
+$primary-color-hover: darken($primary-color, 10%);
+
+// base color scheme
+$body-background: #ffffff;
+$color_border: #e6e6e6;
+
+$error: #e2401c;
+$success: #0f834d;
+$info: #3d9cd2;
+$border-radius: 6px;
+
+$opal-colors: (
+    primary: var(--primary),
+    primary_hover: var(--primary_hover),
+    body: var(--text),
+    heading: var(--accent),
+    light: var(--light),
+    dark: var(--dark),
+    border: var(--border),
+    background: var(--background),
+) !default;
+
+$typos: (
+        body: $base-font,
+        heading: $heading-font,
+) !default;
+
+
+// layout sizes
+$desktop: 1024px;
+$tablet: 768px;
+$handheld: 568px;
+$container-width: 1200px;
+$gutter-width: 30px;
+
+// fontawesome
+$fa-font-path: '../../../assets/fonts';
+
+// susy
+$susy: (
+    columns: 12,
+    gutters: .6,
+    math: fluid,
+    output: float,
+    gutter-position: after,
+    use-custom: (
+        box-sizing: false
+    )
+);
+

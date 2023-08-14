@@ -1,0 +1,56 @@
+.site-header {
+    margin-bottom: ms(5);
+    border-bottom: 1px solid;
+    @include opal-border-color(border);
+    background: #fff;
+}
+
+.header-wrap {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include susy-media($desktop) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.site-branding {
+    margin-bottom: 0;
+    margin-right: ms(4);
+    display: block;
+    clear: both;
+    @include susy-media(max-width $desktop - 1) {
+        float: left;
+        position: relative;
+        z-index: 4;
+        max-width: calc(100% - 120px);
+    }
+    .custom-logo-link + .site-branding-text {
+        @include screen-reader-text();
+    }
+
+
+    img {
+        height: auto;
+    }
+
+    .site-title {
+        font-size: 2em;
+        letter-spacing: -1px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .site-description {
+        font-size: ms(-1);
+        display: none;
+        @include susy-media($desktop) {
+            display: block;
+        }
+    }
+
+    .logo {
+        margin: 0;
+    }
+}

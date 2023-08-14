@@ -1,0 +1,48 @@
+.wpcf7-form{
+  label{
+    margin-bottom: 0.625em;
+    @include opal-color(heading);
+    text-transform: uppercase;
+    display: block;
+  }
+
+  input:not([type="submit"]), textarea{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    @include opal-color(heading);
+    background-color: #fff;
+    @include opal-border-color(border);
+    padding: 0.7em 1.3em;
+    margin-bottom: 1.2rem;
+    &:focus {
+      @include opal-border-color(primary);
+    }
+  }
+
+  input[type="submit"]{
+    min-width: 190px;
+    display: block;
+    @include opal-background-color(primary);
+    @include opal-border-color(primary);
+    padding: 1.3em 3em;
+    color: #ffffff;
+    margin-top: 20px;
+    &:hover {
+      @include opal-border-color(heading);
+    }
+    @include susy-media(max-width $tablet - 1){
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .row-inline {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+

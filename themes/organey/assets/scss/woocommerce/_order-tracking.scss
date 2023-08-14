@@ -1,0 +1,28 @@
+form.woocommerce-form-track-order {
+    .order-text {
+        max-width: 740px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        @include susy-media($desktop){
+            margin-bottom: 50px;
+        }
+    }
+
+    label {
+        font-size: 20px;
+        display: block;
+        @include opal-color(heading);
+        margin-bottom: 10px;
+    }
+
+    input, button {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    button {
+        @include susy-media($desktop){
+            margin-top: 42px;
+        }
+    }
+}

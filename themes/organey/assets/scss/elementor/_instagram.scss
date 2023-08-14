@@ -1,0 +1,74 @@
+.elementor-widget-organey-instagram {
+    .column-item {
+        margin-bottom: 30px;
+    }
+    &.elementor-instagram-style-2 {
+        .row {
+            display: grid;
+            grid: repeat(11, 1fr) / repeat(10, 1fr);
+            margin: 0;
+            grid-gap: 10px;
+            .column-item {
+                max-width: 100%;
+                flex: 0 0 100%;
+                padding: 0;
+                margin-bottom: 0;
+                &:nth-child(6n + 1) {
+                    grid-area: 5/1/span 4/ span 2;
+                }
+                &:nth-child(6n +2) {
+                    grid-area: 2/3/span 6/ span 3;
+                }
+                &:nth-child(6n +3) {
+                    grid-area: 8/4/span 4/ span 2;
+                }
+                &:nth-child(6n +4) {
+                    grid-area: 1/6/span 4/ span 2;
+                }
+                &:nth-child(6n +5) {
+                    grid-area: 5/6/span 6/ span 3;
+                }
+                &:nth-child(6n +6) {
+                    grid-area: 4/9/span 4/ span 2;
+                }
+            }
+        }
+    }
+    &.elementor-instagram-style-3 {
+        .row {
+            margin: 0;
+        }
+        .column-item {
+            padding: 0;
+            margin: 0;
+        }
+        .elementor-widget-container {
+            position: relative;
+        }
+        .instagram-header {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(34, 34, 34, 0.8);
+            z-index: 2;
+            i {
+                font-size: 60px;
+                @include opal-color(primary);
+            }
+            .instagram-name {
+                font-size: 32px;
+                margin-top: 12px;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}

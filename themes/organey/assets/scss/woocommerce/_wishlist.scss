@@ -1,0 +1,179 @@
+/**
+ * Wishlist
+ */
+.woosw-list {
+    .woosw-content-mid-notice {
+        text-align: center;
+        color: var(--accent);
+        font-size: 18px;
+        padding: 30px 0 80px;
+        &:before {
+            @include themecustom-icon();
+            content: themecustom-char(cart-empty);
+            text-align: center;
+            display: block;
+            font-size: 120px;
+            color: var(--light);
+            line-height: 1;
+            margin-bottom: 30px;
+        }
+    }
+
+    table.woosw-content-items {
+        thead {
+            th {
+                font-size: 13px;
+                text-transform: uppercase;
+
+                font-weight: 500;
+                padding: 20px;
+            }
+
+            @include susy-media(max-width $tablet - 1) {
+                display: none;
+            }
+        }
+
+        tr.woosw-content-item {
+            border-top: 1px solid var(--border);
+            @include susy-media(max-width $tablet - 1) {
+                display: block;
+                padding-left: 120px;
+                position: relative;
+            }
+
+            td {
+                background: transparent;
+                padding: 20px;
+                vertical-align: middle;
+                @include susy-media(max-width $tablet - 1) {
+                    padding: 10px 0;
+                    text-align: right;
+                    display: block;
+                    border: none;
+                    border-bottom: 1px solid;
+                    @include opal-border-color(border);
+                    &:last-child {
+                        border: none;
+                    }
+                    &:before {
+                        content: attr(data-title);
+                        float: left;
+                    }
+                }
+            }
+
+            .woosw-content-item--image {
+                width: 120px;
+
+                img {
+                    height: auto;
+                }
+
+                @include susy-media(max-width $tablet - 1) {
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    padding: 0;
+                    border: 0;
+                    width: 100px;
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+
+            .woosw-content-item--title {
+                a {
+                    @include opal-color(heading);
+                    font-weight: 600;
+                    font-size: 16px;
+                    box-shadow: none;
+                    &:hover {
+                        @include opal-color(primary);
+                    }
+                }
+
+                @include susy-media(max-width $tablet - 1) {
+                    text-align: left;
+                    padding-right: 30px;
+                }
+            }
+
+            .woosw-content-item--price {
+                @include opal-color(primary);
+                font-weight: 500;
+                font-size: 16px;
+
+                del{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: var(--light);
+                }
+
+            }
+
+            .woosw-content-item--stock {
+                @include opal-color(primary);
+                font-weight: 500;
+                font-size: 13px;
+                text-transform: uppercase;
+
+
+            }
+
+            .woosw-content-item--add p {
+                &.add_to_cart_inline {
+                    padding: 0 !important;
+                    border: none !important;
+
+                    > a {
+                        display: inline-block;
+                        @include opal-color(heading);
+                        background-color: transparent;
+                        box-shadow: none;
+
+                        @include susy-media(max-width $tablet - 1) {
+                            display: block;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .woosw-content-item--remove {
+                width: 70px;
+                text-align: center;
+                @include susy-media(max-width $tablet - 1) {
+                    width: 30px;
+                    position: absolute;
+                    top: 10px;
+                    right: 0;
+                    padding: 0;
+                    border: none;
+                }
+            }
+
+        }
+    }
+
+    .woosw-actions {
+        margin-bottom: ms(4);
+    }
+}
+
+//#woosw_copy_url {
+//    padding: 0;
+//    border: none;
+//    background-color: transparent;
+//    text-overflow: ellipsis;
+//}
+
+#woosw_copy_btn {
+    padding: 0;
+    background-color: transparent;
+    @include opal-color(primary);
+    border: none;
+    margin-left: 10px;
+    text-decoration: underline;
+}

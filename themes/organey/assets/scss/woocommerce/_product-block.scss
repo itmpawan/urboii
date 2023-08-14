@@ -1,0 +1,112 @@
+ul.products,
+.wc-block-grid__products {
+    li.product {
+        &.product-style-default {
+            .star-rating {
+                font-size: 13px;
+                margin-bottom: 5px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+.product-style-1 {
+    .product-block {
+        box-shadow: 0 0 13px rgba(#000, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 30px;
+        margin: 0 30px 30px 0;
+
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s ease-in-out;
+            border-radius: 8px;
+            opacity: 1;
+            z-index: -1;
+            background-color: #D9E8DB;
+            box-shadow: 0 0 20px rgba(#D9E8DB, 0.1);
+        }
+
+        .time-sale {
+            background-color: var(--primary);
+            position: relative;
+            display: block;
+            padding: 20px 10px;
+            width: calc(100% + 60px);
+            padding-right: 60px;
+
+            .organey-countdown {
+                color: #fff;
+            }
+
+            .countdown-item {
+                flex: auto;
+                position: relative;
+
+                &:before {
+                    content: ":";
+                    position: absolute;
+                    opacity: 0.3;
+                    left: -5px;
+                }
+
+                &:first-child {
+                    &:before {
+                        display: none;
+                    }
+                }
+
+                span {
+                    display: block;
+                    color: #ffffff;
+                    text-align: center;
+                }
+
+                .countdown-digits {
+                    font-size: 26px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+
+                }
+
+                .countdown-label {
+                    font-size: 14px;
+                    line-height: 14px;
+                    font-weight: 400;
+                }
+            }
+
+        }
+    }
+}
+
+.product-style-2 {
+    .star-rating{
+        margin-top: 10px;
+    }
+    .add-to-cart-wrap {
+        a[class*=product_type_] {
+            font-size: 0 !important;
+            color: transparent;
+
+            &:before {
+                margin: 0 !important;
+                width: 38px;
+                height: 38px;
+                line-height: 34px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,413 @@
+@mixin clearfix {
+	&::before,
+	&::after {
+		content: '';
+		display: table;
+	}
+	&::after {
+		clear: both;
+	}
+}
+
+@mixin screen-reader-text() {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+@mixin lb-boxshadow(){
+	box-shadow: 1px 1px 2px rgb(0,0,0,.05);
+}
+
+@mixin underlinedLink() {
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+@mixin button() {
+	border: 0;
+	background: none;
+	color: #fff;
+	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	padding: ms(-2) ms(2);
+	text-decoration: none;
+	font-weight: 600;
+	text-shadow: none;
+	display: inline-block;
+	outline: none;
+	-webkit-appearance: none;
+	border-radius: 0;
+	box-shadow: inset 0 -1px 0 rgba(#000, 0.3);
+}
+
+@mixin opal-color($color) {
+	color: map_get($opal-colors, $color);
+}
+
+@mixin opal-typo($typo) {
+	font-family: map_get($typos, $typo);
+}
+
+@mixin opal-outline-color($color) {
+	outline-color: map_get($opal-colors, $color);
+	//@extend %outline-#{$color};
+}
+
+@mixin opal-background-color($color) {
+	background-color: map_get($opal-colors, $color);
+	//@extend %background-color-#{$color};
+}
+
+@mixin opal-fill-color($color) {
+	fill: map_get($opal-colors, $color);
+	//@extend %fill-color-#{$color};
+}
+
+@mixin opal-border-color($color) {
+	border-color: map_get($opal-colors, $color);
+	//@extend %border-color-#{$color};
+}
+
+@mixin opal-border-top-color($color) {
+	border-top-color: map_get($opal-colors, $color);
+	//@extend %border-top-color-#{$color};
+}
+
+@mixin opal-border-bottom-color($color) {
+	border-bottom-color: map_get($opal-colors, $color);
+	//@extend %border-bottom-color-#{$color};
+}
+
+@mixin opal-border-left-color($color) {
+	border-left-color: map_get($opal-colors, $color);
+	//@extend %border-left-color-#{$color};
+}
+
+@mixin opal-border-right-color($color) {
+	border-right-color: map_get($opal-colors, $color);
+	//@extend %border-right-color-#{$color};
+}
+
+// Hover
+//@mixin opal-color-hover($color) {
+//	color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %color-#{$color}-hover;
+//}
+//
+//@mixin opal-background-color-hover($color) {
+//	background-color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %background-color-#{$color}-hover;
+//}
+//
+//@mixin opal-fill-color-hover($color) {
+//	fill: darken(map_get($opal-colors, $color), 15%);
+//	@extend %fill-color-#{$color}-hover;
+//}
+//
+//@mixin opal-border-color-hover($color) {
+//	border-color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %border-color-#{$color}-hover;
+//}
+//
+//@mixin opal-border-top-color-hover($color) {
+//	border-top-color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %border-top-color-#{$color}-hover;
+//}
+//
+//@mixin opal-border-bottom-color-hover($color) {
+//	border-bottom-color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %border-bottom-color-#{$color}-hover;
+//}
+//
+//@mixin opal-border-left-color-hover($color) {
+//	border-left-color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %border-left-color-#{$color}-hover;
+//}
+//
+//@mixin opal-border-top-color-hover($color) {
+//	border-right-color: darken(map_get($opal-colors, $color), 15%);
+//	@extend %border-right-color-#{$color}-hover;
+//}
+
+// Transformations
+
+@mixin transition($transition...) {
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	-moz-transition: $transition;
+	-webkit-transition: $transition;
+	transition: $transition;
+}
+
+@mixin transform($value...) {
+	-ms-transform: $value;
+	-o-transform: $value;
+	-moz-transform: $value;
+	-webkit-transform: $value;
+	transform: $value;
+}
+
+@mixin transform-none() {
+	-ms-transform: none;
+	-o-transform: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	transform: none;
+}
+
+@mixin scale($ratio...) {
+	-ms-transform: scale($ratio);
+	-o-transform: scale($ratio);
+	-moz-transform: scale($ratio);
+	-webkit-transform: scale($ratio);
+	transform: scale($ratio);
+}
+
+@mixin scaleX($ratio) {
+	-ms-transform: scaleX($ratio);
+	-o-transform: scaleX($ratio);
+	-moz-transform: scaleX($ratio);
+	-webkit-transform: scaleX($ratio);
+	transform: scaleX($ratio);
+}
+
+@mixin scaleY($ratio) {
+	-ms-transform: scaleY($ratio);
+	-o-transform: scaleY($ratio);
+	-moz-transform: scaleY($ratio);
+	-webkit-transform: scaleY($ratio);
+	transform: scaleY($ratio);
+}
+
+@mixin scale3d($x, $y, $z) {
+	-ms-transform: scale3d($x, $y, $z);
+	-o-transform: scale3d($x, $y, $z);
+	-moz-transform: scale3d($x, $y, $z);
+	-webkit-transform: scale3d($x, $y, $z);
+	transform: scale3d($x, $y, $z);
+}
+
+@mixin skew($x, $y) {
+	-ms-transform: skewX($x) skewY($y);
+	-o-transform: skewX($x) skewY($y);
+	-moz-transform: skewX($x) skewY($y);
+	-webkit-transform: skewX($x) skewY($y);
+	transform: skewX($x) skewY($y);
+}
+
+@mixin translate($x, $y) {
+	-ms-transform: translate($x, $y);
+	-o-transform: translate($x, $y);
+	-moz-transform: translate($x, $y);
+	-webkit-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin translateX($x) {
+	-ms-transform: translateX($x);
+	-o-transform: translateX($x);
+	-moz-transform: translateX($x);
+	-webkit-transform: translateX($x);
+	transform: translateX($x);
+}
+
+@mixin translateY($y) {
+	-ms-transform: translateY($y);
+	-o-transform: translateY($y);
+	-moz-transform: translateY($y);
+	-webkit-transform: translateY($y);
+	transform: translateY($y);
+}
+
+@mixin translate3d($x, $y, $z) {
+	-ms-transform: translate3d($x, $y, $z);
+	-o-transform: translate3d($x, $y, $z);
+	-moz-transform: translate3d($x, $y, $z);
+	-webkit-transform: translate3d($x, $y, $z);
+	transform: translate3d($x, $y, $z);
+}
+
+@mixin translate-0() {
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+@mixin rotate($degrees) {
+	-ms-transform: rotate($degrees);
+	-o-transform: rotate($degrees);
+	-moz-transform: rotate($degrees);
+	-webkit-transform: rotate($degrees);
+	transform: rotate($degrees);
+}
+
+@mixin rotateX($degrees) {
+	-ms-transform: rotateX($degrees);
+	-o-transform: rotateX($degrees);
+	-moz-transform: rotateX($degrees);
+	-webkit-transform: rotateX($degrees);
+	transform: rotateX($degrees);
+}
+
+@mixin rotateY($degrees) {
+	-ms-transform: rotateY($degrees);
+	-o-transform: rotateY($degrees);
+	-moz-transform: rotateY($degrees);
+	-webkit-transform: rotateY($degrees);
+	transform: rotateY($degrees);
+}
+
+@mixin perspective($perspective) {
+	-ms-perspective: $perspective;
+	-o-perspective: $perspective;
+	-moz-perspective: $perspective;
+	-webkit-perspective: $perspective;
+	perspective: $perspective;
+}
+
+@mixin perspective-origin($perspective) {
+	-ms-perspective-origin: $perspective;
+	-o-perspective-origin: $perspective;
+	-moz-perspective-origin: $perspective;
+	-webkit-perspective-origin: $perspective;
+	perspective-origin: $perspective;
+}
+
+@mixin transform-origin($origin) {
+	-ms-transform-origin: $origin;
+	-o-transform-origin: $origin;
+	-moz-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+	transform-origin: $origin;
+}
+
+// Animations
+@mixin animation($animation...) {
+	-ms-animation: $animation;
+	-o-animation: $animation;
+	-moz-animation: $animation;
+	-webkit-animation: $animation;
+	animation: $animation;
+}
+
+@mixin animation-name($name) {
+	-ms-animation-name: $name;
+	-o-animation-name: $name;
+	-moz-animation-name: $name;
+	-webkit-animation-name: $name;
+	animation-name: $name;
+}
+
+@mixin animation-duration($duration) {
+	-ms-animation-duration: $duration;
+	-o-animation-duration: $duration;
+	-moz-animation-duration: $duration;
+	-webkit-animation-duration: $duration;
+	animation-duration: $duration;
+}
+
+@mixin animation-timing-function($timing-function) {
+	-ms-animation-timing-function: $timing-function;
+	-o-animation-timing-function: $timing-function;
+	-moz-animation-timing-function: $timing-function;
+	-webkit-animation-timing-function: $timing-function;
+	animation-timing-function: $timing-function;
+}
+
+@mixin animation-delay($delay) {
+	-ms-animation-delay: $delay;
+	-o-animation-delay: $delay;
+	-moz-animation-delay: $delay;
+	-webkit-animation-delay: $delay;
+	animation-delay: $delay;
+}
+
+@mixin animation-iteration-count($iteration-count) {
+	-ms-animation-iteration-count: $iteration-count;
+	-o-animation-iteration-count: $iteration-count;
+	-moz-animation-iteration-count: $iteration-count;
+	-webkit-animation-iteration-count: $iteration-count;
+	animation-iteration-count: $iteration-count;
+}
+
+@mixin animation-direction($direction) {
+	-ms-animation-direction: $direction;
+	-o-animation-direction: $direction;
+	-moz-animation-direction: $direction;
+	-webkit-animation-direction: $direction;
+	animation-direction: $direction;
+}
+
+@mixin animation-fill-mode($fill-mode) {
+	-ms-animation-fill-mode: $fill-mode;
+	-o-animation-fill-mode: $fill-mode;
+	-moz-animation-fill-mode: $fill-mode;
+	-webkit-animation-fill-mode: $fill-mode;
+	animation-fill-mode: $fill-mode;
+}
+
+@mixin transform-style($transform-style) {
+	-ms-transform-style: $transform-style;
+	-o-transform-style: $transform-style;
+	-moz-transform-style: $transform-style;
+	-webkit-transform-style: $transform-style;
+	transform-style: $transform-style;
+}
+
+// Opacity
+
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	-ms-opacity: $opacity;
+	-o-opacity: $opacity;
+	-moz-opacity: $opacity;
+	-webkit-opacity: $opacity;
+	// IE8 filter
+	$opacity-ie: ($opacity * 100);
+	filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin opal-loading() {
+	content: "";
+	width: 30px;
+	height: 30px;
+	display: block;
+	vertical-align: middle;
+	border: 1px solid #bbb;
+	border-left-color: #000;
+	border-radius: 50%;
+	animation: opal-loading 450ms infinite linear;
+	-webkit-animation: opal-loading 450ms infinite linear;
+	margin: 30px auto;
+}
+
+
+@keyframes opal-loading {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+@-webkit-keyframes opal-loading {
+	100% {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@mixin make-col($size, $columns: 12) {
+	flex: 0 0 percentage($size / $columns);
+	max-width: percentage($size / $columns);
+}

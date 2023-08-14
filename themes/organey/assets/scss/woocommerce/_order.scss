@@ -1,0 +1,87 @@
+// Checkout Success
+.woocommerce-order {
+    .woocommerce-thankyou-order-received {
+        color: $success;
+        background-color: #f8f8f8;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        padding: ms(4) ms(2)
+    }
+
+    .woocommerce-order-details__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: ms(3);
+    }
+
+    @media (min-width: 768px) {
+
+        ul.woocommerce-thankyou-order-details {
+            li {
+                width: 20%;
+                margin: 0 !important;
+            }
+        }
+
+    }
+
+    .woocommerce-table--order-details {
+        max-width: 900px;
+        margin: ms(2) auto ms(8);
+
+        th {
+            @include opal-color(heading);
+        }
+
+        tr {
+            td:last-child,
+            th:last-child {
+                text-align: right;
+            }
+        }
+
+        td,
+        th {
+            border-top: 1px solid;
+            @include opal-border-top-color(border);
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        thead {
+            td,
+            th {
+                border-top: 0;
+                border-bottom: 2px solid;
+                @include opal-border-bottom-color(border);
+            }
+        }
+
+        .product-name {
+            a {
+                @include opal-color(body);
+
+                &:hover {
+                    @include opal-color(primary);
+                }
+            }
+        }
+
+        tfoot {
+            @include opal-color(heading);
+
+            .amount {
+                font-weight: 700;
+            }
+
+            tr:last-child {
+                .amount {
+                    font-weight: 700;
+                    font-size: ms(3);
+                    @include opal-color(primary);
+                }
+            }
+        }
+    }
+}

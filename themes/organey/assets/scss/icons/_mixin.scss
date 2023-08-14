@@ -1,0 +1,497 @@
+@font-face {
+	font-family: "organey-icon";
+	src: url('./assets/fonts/organey-icon.eot');
+	src: url('./assets/fonts/organey-icon.eot?#iefix') format('eot'),
+	url('./assets/fonts/organey-icon.woff2') format('woff2'),
+	url('./assets/fonts/organey-icon.woff') format('woff'),
+	url('./assets/fonts/organey-icon.ttf') format('truetype'),
+	url('./assets/fonts/organey-icon.svg#organey-icon') format('svg');
+	font-display: swap;
+}
+
+@mixin themecustom-icon{
+	font-family: "organey-icon";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+[class*="organey-icon-"] {
+	@include themecustom-icon;
+}
+
+
+@function themecustom-char($filename) {
+	$char: "";
+
+	@if $filename == almonds {
+	$char: "\E001";
+}
+	@if $filename == carrot {
+	$char: "\E002";
+}
+	@if $filename == cart {
+	$char: "\E003";
+}
+	@if $filename == cherry {
+	$char: "\E004";
+}
+	@if $filename == close {
+	$char: "\E005";
+}
+	@if $filename == collapse {
+	$char: "\E006";
+}
+	@if $filename == copy {
+	$char: "\E007";
+}
+	@if $filename == credit-card {
+	$char: "\E008";
+}
+	@if $filename == delete {
+	$char: "\E009";
+}
+	@if $filename == dropdown {
+	$char: "\E00A";
+}
+	@if $filename == expand {
+	$char: "\E00B";
+}
+	@if $filename == favourite {
+	$char: "\E00C";
+}
+	@if $filename == filter {
+	$char: "\E00D";
+}
+	@if $filename == fish {
+	$char: "\E00E";
+}
+	@if $filename == history {
+	$char: "\E00F";
+}
+	@if $filename == leaf {
+	$char: "\E010";
+}
+	@if $filename == lettuce {
+	$char: "\E011";
+}
+	@if $filename == live-support {
+	$char: "\E012";
+}
+	@if $filename == location-1 {
+	$char: "\E013";
+}
+	@if $filename == mail-1 {
+	$char: "\E014";
+}
+	@if $filename == minus-square {
+	$char: "\E015";
+}
+	@if $filename == open-can {
+	$char: "\E016";
+}
+	@if $filename == organic {
+	$char: "\E017";
+}
+	@if $filename == paper-bags {
+	$char: "\E018";
+}
+	@if $filename == phone-1 {
+	$char: "\E019";
+}
+	@if $filename == phone-plus {
+	$char: "\E01A";
+}
+	@if $filename == plus-square {
+	$char: "\E01B";
+}
+	@if $filename == rocket {
+	$char: "\E01C";
+}
+	@if $filename == search {
+	$char: "\E01D";
+}
+	@if $filename == shop-leaf {
+	$char: "\E01E";
+}
+	@if $filename == short-arrow-left {
+	$char: "\E01F";
+}
+	@if $filename == sprout {
+	$char: "\E020";
+}
+	@if $filename == tag {
+	$char: "\E021";
+}
+	@if $filename == tofu {
+	$char: "\E022";
+}
+	@if $filename == user {
+	$char: "\E023";
+}
+	@if $filename == adobe {
+	$char: "\E024";
+}
+	@if $filename == amazon {
+	$char: "\E025";
+}
+	@if $filename == android {
+	$char: "\E026";
+}
+	@if $filename == angular {
+	$char: "\E027";
+}
+	@if $filename == apper {
+	$char: "\E028";
+}
+	@if $filename == apple {
+	$char: "\E029";
+}
+	@if $filename == atlassian {
+	$char: "\E02A";
+}
+	@if $filename == behance {
+	$char: "\E02B";
+}
+	@if $filename == bitbucket {
+	$char: "\E02C";
+}
+	@if $filename == bitcoin {
+	$char: "\E02D";
+}
+	@if $filename == bity {
+	$char: "\E02E";
+}
+	@if $filename == bluetooth {
+	$char: "\E02F";
+}
+	@if $filename == btc {
+	$char: "\E030";
+}
+	@if $filename == centos {
+	$char: "\E031";
+}
+	@if $filename == chrome {
+	$char: "\E032";
+}
+	@if $filename == codepen {
+	$char: "\E033";
+}
+	@if $filename == cpanel {
+	$char: "\E034";
+}
+	@if $filename == discord {
+	$char: "\E035";
+}
+	@if $filename == dochub {
+	$char: "\E036";
+}
+	@if $filename == docker {
+	$char: "\E037";
+}
+	@if $filename == dribbble {
+	$char: "\E038";
+}
+	@if $filename == dropbox {
+	$char: "\E039";
+}
+	@if $filename == drupal {
+	$char: "\E03A";
+}
+	@if $filename == ebay {
+	$char: "\E03B";
+}
+	@if $filename == facebook {
+	$char: "\E03C";
+}
+	@if $filename == figma {
+	$char: "\E03D";
+}
+	@if $filename == firefox {
+	$char: "\E03E";
+}
+	@if $filename == google-plus {
+	$char: "\E03F";
+}
+	@if $filename == google {
+	$char: "\E040";
+}
+	@if $filename == grunt {
+	$char: "\E041";
+}
+	@if $filename == gulp {
+	$char: "\E042";
+}
+	@if $filename == html5 {
+	$char: "\E043";
+}
+	@if $filename == joomla {
+	$char: "\E044";
+}
+	@if $filename == link-brand {
+	$char: "\E045";
+}
+	@if $filename == linkedin {
+	$char: "\E046";
+}
+	@if $filename == mailchimp {
+	$char: "\E047";
+}
+	@if $filename == opencart {
+	$char: "\E048";
+}
+	@if $filename == paypal {
+	$char: "\E049";
+}
+	@if $filename == pinterest-p {
+	$char: "\E04A";
+}
+	@if $filename == reddit {
+	$char: "\E04B";
+}
+	@if $filename == skype {
+	$char: "\E04C";
+}
+	@if $filename == slack {
+	$char: "\E04D";
+}
+	@if $filename == snapchat {
+	$char: "\E04E";
+}
+	@if $filename == spotify {
+	$char: "\E04F";
+}
+	@if $filename == trello {
+	$char: "\E050";
+}
+	@if $filename == twitter {
+	$char: "\E051";
+}
+	@if $filename == vimeo {
+	$char: "\E052";
+}
+	@if $filename == whatsapp {
+	$char: "\E053";
+}
+	@if $filename == wordpress {
+	$char: "\E054";
+}
+	@if $filename == yoast {
+	$char: "\E055";
+}
+	@if $filename == youtube {
+	$char: "\E056";
+}
+	@if $filename == 360 {
+	$char: "\E057";
+}
+	@if $filename == angle-down {
+	$char: "\E058";
+}
+	@if $filename == angle-left {
+	$char: "\E059";
+}
+	@if $filename == angle-right {
+	$char: "\E05A";
+}
+	@if $filename == angle-up {
+	$char: "\E05B";
+}
+	@if $filename == arrow-left {
+	$char: "\E05C";
+}
+	@if $filename == arrow-right {
+	$char: "\E05D";
+}
+	@if $filename == bars {
+	$char: "\E05E";
+}
+	@if $filename == calendar {
+	$char: "\E05F";
+}
+	@if $filename == cart-empty {
+	$char: "\E060";
+}
+	@if $filename == chevron-down {
+	$char: "\E061";
+}
+	@if $filename == chevron-left {
+	$char: "\E062";
+}
+	@if $filename == chevron-right {
+	$char: "\E063";
+}
+	@if $filename == chevron-up {
+	$char: "\E064";
+}
+	@if $filename == clock {
+	$char: "\E065";
+}
+	@if $filename == cloud-download-alt {
+	$char: "\E066";
+}
+	@if $filename == comment {
+	$char: "\E067";
+}
+	@if $filename == comments {
+	$char: "\E068";
+}
+	@if $filename == edit {
+	$char: "\E069";
+}
+	@if $filename == envelope {
+	$char: "\E06A";
+}
+	@if $filename == expand-alt {
+	$char: "\E06B";
+}
+	@if $filename == external-link-alt {
+	$char: "\E06C";
+}
+	@if $filename == eye {
+	$char: "\E06D";
+}
+	@if $filename == file-alt {
+	$char: "\E06E";
+}
+	@if $filename == file-archive {
+	$char: "\E06F";
+}
+	@if $filename == folder-open {
+	$char: "\E070";
+}
+	@if $filename == folder {
+	$char: "\E071";
+}
+	@if $filename == frown {
+	$char: "\E072";
+}
+	@if $filename == gift {
+	$char: "\E073";
+}
+	@if $filename == grid {
+	$char: "\E074";
+}
+	@if $filename == heart-fill {
+	$char: "\E075";
+}
+	@if $filename == heart {
+	$char: "\E076";
+}
+	@if $filename == home {
+	$char: "\E077";
+}
+	@if $filename == info-circle {
+	$char: "\E078";
+}
+	@if $filename == instagram {
+	$char: "\E079";
+}
+	@if $filename == list {
+	$char: "\E07A";
+}
+	@if $filename == long-arrow-alt-down {
+	$char: "\E07B";
+}
+	@if $filename == long-arrow-alt-left {
+	$char: "\E07C";
+}
+	@if $filename == long-arrow-alt-right {
+	$char: "\E07D";
+}
+	@if $filename == long-arrow-alt-up {
+	$char: "\E07E";
+}
+	@if $filename == map-marker-check {
+	$char: "\E07F";
+}
+	@if $filename == meh {
+	$char: "\E080";
+}
+	@if $filename == minus {
+	$char: "\E081";
+}
+	@if $filename == money-bill {
+	$char: "\E082";
+}
+	@if $filename == pencil-alt {
+	$char: "\E083";
+}
+	@if $filename == plus {
+	$char: "\E084";
+}
+	@if $filename == quote {
+	$char: "\E085";
+}
+	@if $filename == random {
+	$char: "\E086";
+}
+	@if $filename == reply-all {
+	$char: "\E087";
+}
+	@if $filename == reply {
+	$char: "\E088";
+}
+	@if $filename == router {
+	$char: "\E089";
+}
+	@if $filename == shopping-cart {
+	$char: "\E08A";
+}
+	@if $filename == sign-out-alt {
+	$char: "\E08B";
+}
+	@if $filename == smile {
+	$char: "\E08C";
+}
+	@if $filename == spinner {
+	$char: "\E08D";
+}
+	@if $filename == square {
+	$char: "\E08E";
+}
+	@if $filename == star {
+	$char: "\E08F";
+}
+	@if $filename == store {
+	$char: "\E090";
+}
+	@if $filename == sync {
+	$char: "\E091";
+}
+	@if $filename == tachometer-alt {
+	$char: "\E092";
+}
+	@if $filename == th-large {
+	$char: "\E093";
+}
+	@if $filename == th-list {
+	$char: "\E094";
+}
+	@if $filename == thumbtack {
+	$char: "\E095";
+}
+	@if $filename == times-circle {
+	$char: "\E096";
+}
+	@if $filename == times {
+	$char: "\E097";
+}
+	@if $filename == truck {
+	$char: "\E098";
+}
+	@if $filename == video {
+	$char: "\E099";
+}
+
+@return $char;
+}
+
+@mixin organey-icon($filename, $insert: before) {
+&:#{$insert} {
+	content: themecustom-char($filename);
+}
+}

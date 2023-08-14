@@ -1,0 +1,86 @@
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table {
+    thead {
+        tr {
+            th {
+                padding: 15px;
+                border: 1px solid var(--border);
+
+                a {
+                    color: var(--accent);
+                    text-transform: none;
+                    font-weight: 600;
+                    font-size: 16px;
+
+                    &:hover {
+                        color: var(--primary_hover);
+                    }
+                }
+            }
+        }
+    }
+
+    .tr-additional {
+        td {
+            vertical-align: top;
+        }
+    }
+
+    tbody tr {
+        &.tr-image img {
+            max-width: 150px;
+        }
+
+        td {
+            padding: 15px;
+            border: 1px solid var(--border);
+
+            &.td-label {
+                font-weight: 600;
+            }
+
+            .shop_attributes {
+                table-layout: auto !important;
+
+                tr {
+                    //background: none !important;
+                }
+
+                td, th {
+                    border: none !important;
+                    background: none !important;
+                    padding: 10px !important;
+                }
+
+                @include susy-media(max-width $tablet) {
+                    td {
+                        padding-top: 0 !important;
+                        display: block;
+                    }
+
+                    th {
+                        display: block;
+                        padding-bottom: 0 !important;
+                    }
+                }
+            }
+
+            del {
+                text-decoration: none;
+
+                .amount {
+                    text-decoration: line-through;
+                    color: var(--light);
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+            }
+
+            .amount {
+                color: var(--primary);
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+}

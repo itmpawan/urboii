@@ -1,0 +1,11 @@
+:root{
+    --primary: #71d7f7;
+}
+.toplevel_page_leebrosus{
+    img{
+        width: 16px!important;
+    }
+}
+
+@import "backend/settings";
+@import "backend/input-switcher";

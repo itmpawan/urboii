@@ -1,0 +1,34 @@
+.wcml-dropdown {
+	width: 100%;
+	li,
+	.wcml-cs-submenu li {
+		@include opal-border-color(border);
+	}
+	.wcml-cs-submenu {
+		border-top: 0;
+	}
+
+	a {
+		padding: ms(1) ms(2);
+	}
+
+	a.wcml-cs-item-toggle {
+		&:after {
+			right: ms(1);
+		}
+	}
+}
+
+.wcml-horizontal-list,
+.wcml-vertical-list{
+	li{
+		&.wcml-cs-active-currency {
+			a{
+				font-weight: bold;
+				@include opal-color(heading);
+				cursor: default;
+			}
+		}
+	}
+}
+

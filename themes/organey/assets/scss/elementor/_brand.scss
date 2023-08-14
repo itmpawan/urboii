@@ -1,0 +1,123 @@
+.elementor-brand-item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    .elementor-brand-image {
+        display: block;
+        width: 100%;
+        font-size: 0;
+        transition: all ease 0.3s;
+
+        img {
+            margin: 0 auto;
+        }
+
+        i {
+            font-size: 50px;
+            display: inline-block;
+            position: relative;
+            width: 1em;
+            height: 1em;
+
+            &:before {
+                position: absolute;
+                line-height: 1;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        svg path {
+            transition: all ease 0.3s;
+        }
+    }
+}
+
+.elementor-brand-wrapper {
+    .row {
+        justify-content: center;
+    }
+
+    a {
+        display: block;
+    }
+
+    img {
+        transition: all ease 0.3s;
+    }
+
+    .column-item {
+        margin-bottom: 30px;
+    }
+
+    .slick-slide {
+        position: relative;
+
+        &:before {
+            top: 0;
+            right: 0;
+            width: 1px;
+            height: 100%;
+            background: #ebebeb;
+            position: absolute;
+        }
+
+        &:last-child {
+            &:before {
+                content: none !important;
+            }
+        }
+    }
+}
+
+.organey-brand-border-yes {
+    .elementor-brand-wrapper {
+        border-top: 1px solid;
+        @include opal-border-top-color(border);
+        border-bottom: 1px solid;
+        @include opal-border-bottom-color(border);
+
+        .elementor-brand-item {
+            &:before {
+                content: "";
+                display: inline-block;
+                top: 0;
+                right: 0;
+                width: 1px;
+                height: 100%;
+                @include opal-background-color(border);
+                position: absolute;
+            }
+
+            &:last-child {
+                &:before {
+                    content: none !important;
+                }
+            }
+        }
+
+        .slick-slide {
+            position: relative;
+
+            &:before {
+                content: "";
+                display: inline-block;
+                top: 0;
+                right: 0;
+                width: 1px;
+                height: 100%;
+                @include opal-background-color(border);
+                position: absolute;
+            }
+
+            &:last-child {
+                &:before {
+                    content: none !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.wp-caption {
+	margin-bottom: ms(1);
+	max-width: 100%;
+
+	img[class*='wp-image-'] {
+		display: block;
+		margin: 0 auto;
+	}
+	.wp-caption-text {
+		text-align: left;
+		font-style: italic;
+		border-bottom: 2px solid $color_border;
+		padding: ms(-3) 0;
+		font-size: ms(-1);
+		@include opal-color(light);
+	}
+}

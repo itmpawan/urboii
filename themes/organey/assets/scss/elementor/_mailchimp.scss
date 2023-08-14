@@ -1,0 +1,60 @@
+.elementor-widget-organey-mailchmip {
+    form {
+        margin-bottom: 0;
+    }
+
+    .mc4wp-form-fields {
+        display: flex;
+        flex-wrap: wrap;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        input {
+            border-radius: 2em;
+
+            &[type="email"] {
+                flex: 1;
+                padding: 11.5px 20px;
+                margin-right: 8px;
+
+                &::placeholder {
+                    font-size: 14px;
+                    @include opal-color(light);
+                }
+
+            }
+
+            &[type="submit"] {
+                font-size: 14px;
+                font-weight: 600;
+                padding: 12.5px 25px;
+                @include opal-border-color(primary);
+
+                &:hover {
+                    @include opal-border-color(primary_hover);
+                }
+            }
+        }
+    }
+
+    @include susy-media(max-width ($handheld - 1)) {
+        input{
+            &[type="email"] {
+                margin-right: 0;
+            }
+            &[type="submit"] {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.mc4wp-response {
+    color: #000000;
+
+    a {
+        color: #000000;
+    }
+}

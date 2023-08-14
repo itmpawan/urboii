@@ -1,0 +1,54 @@
+/*=======================
+* MODAL POPUP STYLE
+========================*/
+#woosq-popup {
+    .product_title {
+        display: block;
+        font-size: 24px;
+    }
+
+    .woocommerce-product-rating{
+        margin-top: -20px;
+    }
+
+    p.price {
+        font-size: 20px;
+        del {
+            font-size: 16px;
+        }
+
+        ins {
+            font-size: 20px;
+        }
+    }
+
+    .product_meta {
+        a {
+            text-decoration: underline;
+        }
+    }
+
+
+    //.thumbnail {
+    //    padding: 30px;
+    //    background: #fff;
+    //    img{
+    //        border: 1px solid var(--border);
+    //        border-radius: 8px;
+    //    }
+    //}
+
+    .woocommerce-product-details__short-description{
+        ul, ol{
+            margin-left: 20px;
+        }
+    }
+}
+
+#woosq-popup .single-product .product .summary .summary-content{
+    //padding-left: 0;
+}
+
+.mfp-woosq .mfp-close:before{
+    background: #f1f1f1;
+}

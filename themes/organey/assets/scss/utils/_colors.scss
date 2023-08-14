@@ -1,0 +1,37 @@
+@each $opal-color in map-keys($opal-colors) {
+	$color: map_get($opal-colors, $opal-color);
+	//$color-hover: darken($color, 10%);
+	%color-#{$opal-color} {
+		color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+
+	%outline-#{$opal-color} {
+		outline-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+
+	%fill-color-#{$opal-color} {
+		fill: #{$color}; /* start-color (#{$opal-color}) */
+	}
+
+	%background-color-#{$opal-color} {
+		background-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+
+	%border-color-#{$opal-color} {
+		border-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+
+	%border-top-color-#{$opal-color} {
+		border-top-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+	%border-bottom-color-#{$opal-color} {
+		border-bottom-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+	%border-left-color-#{$opal-color} {
+		border-left-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+
+	%border-right-color-#{$opal-color} {
+		border-right-color: #{$color}; /* start-color (#{$opal-color}) */
+	}
+}

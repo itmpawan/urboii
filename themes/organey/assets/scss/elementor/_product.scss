@@ -1,0 +1,82 @@
+.elementor-product-layout-masonory-1 {
+    @include susy-media($desktop) {
+        .woocommerce {
+            ul.products {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                //grid-template-rows: repeat(5, 1fr);
+                margin: 0;
+                grid-gap: 30px;
+
+                li.product {
+                    width: 100%;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    padding: 0;
+                    margin: 0;
+
+                    &:first-child {
+                        grid-column-end: 2 span;
+                        grid-row-end: 2 span;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.elementor-product-layout-masonory-2 {
+    @include susy-media($desktop) {
+        .woocommerce {
+            ul.products {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                margin: 0;
+                grid-gap: 30px;
+
+                li.product {
+                    width: 100%;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    padding: 0;
+                    margin: 0;
+
+                    &:nth-child(1),
+                    &:nth-child(7),
+                    &:nth-child(5),
+                    &:nth-child(8) {
+                        grid-row-end: 2 span;
+
+                    }
+                    &:nth-child(1),
+                    &:nth-child(7),
+                    &:nth-child(11) {
+                        grid-column-end: 2 span;
+                    }
+                    &:nth-child(5),
+                    &:nth-child(8),
+                    &:nth-child(11){
+                        .product-transition {
+                            height: 100%;
+                            .product-img-wrap {
+                                height: 100%;
+                            }
+                            .product-image {
+                                height: 100%;
+                                position: relative;
+                                img {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

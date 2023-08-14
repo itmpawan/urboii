@@ -1,0 +1,155 @@
+[data-elementor-columns] {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: - $gutter-width/2;
+    margin-right: - $gutter-width/2;
+
+    .column-item {
+        padding-left: $gutter-width/2;
+        padding-right: $gutter-width/2;
+    }
+}
+
+@each $col, $a in (
+        1: 12,
+        2: 6,
+        3: 4,
+        4: 3,
+        5: 2.4,
+        6: 2,
+) {
+
+    [data-elementor-columns-mobile="#{$col}"] {
+        .column-item {
+            flex: 0 0 percentage($a/12);
+            max-width: percentage($a/12);
+        }
+    }
+}
+
+@include susy-media($tablet) {
+    @each $col, $a in (
+            1: 12,
+            2: 6,
+            3: 4,
+            4: 3,
+            5: 2.4,
+            6: 2,
+    ) {
+
+        [data-elementor-columns-tablet="#{$col}"] {
+            .column-item {
+                flex: 0 0 percentage($a/12);
+                max-width: percentage($a/12);
+            }
+        }
+    }
+}
+
+@include susy-media($desktop) {
+    @each $col, $a in (
+            1: 12,
+            2: 6,
+            3: 4,
+            4: 3,
+            5: 2.4,
+            6: 2,
+    ) {
+
+        [data-elementor-columns="#{$col}"] {
+            .column-item {
+                flex: 0 0 percentage($a/12);
+                max-width: percentage($a/12);
+            }
+        }
+    }
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $gutter-width/2;
+    padding-right: $gutter-width/2;
+    width: 100%;
+    max-width: var(--container);
+    @media(min-width: $tablet) and (max-width: var(--container)) {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: auto;
+    }
+
+    &.no-padding {
+        padding: 0;
+
+        &.padding-mobile {
+            @media (max-width: 1200px) {
+                padding-left: $gutter-width/2;
+                padding-right: $gutter-width/2;
+            }
+        }
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -$gutter-width/2;
+    margin-right: -$gutter-width/2;
+}
+
+[class*=" column-"], [class^="column-"] {
+    padding-left: $gutter-width/2;
+    padding-right: $gutter-width/2;
+}
+
+@each $infix, $media in (
+        '' : 0,
+        '-tablet': 768px,
+        '-desktop': 1024px,
+) {
+    @if ($media == 0) {
+        @for $i from 1 through 12 {
+            .column#{$infix}-#{$i} {
+                flex: 0 0 percentage($i/12);
+                max-width: percentage($i/12);
+            }
+        }
+    } @else {
+        @media (min-width: $media) {
+            @for $i from 1 through 12 {
+                .column#{$infix}-#{$i} {
+                    flex: 0 0 percentage($i/12);
+                    max-width: percentage($i/12);
+                }
+            }
+        }
+    }
+}
+
+.hide {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .tablet-hide {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .desktop-hide {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .tablet-hide-down {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .desktop-hide-down {
+        display: none !important;
+    }
+}

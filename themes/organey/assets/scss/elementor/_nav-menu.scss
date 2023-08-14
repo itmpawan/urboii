@@ -1,0 +1,42 @@
+// menu
+
+@include susy-media($tablet){
+  .elementor-nav-menu-wrapper {
+  }
+}
+.elementor-nav-menu-wrapper {
+    .main-navigation {
+        .primary-navigation {
+            @include susy-media(max-width $tablet - 1) {
+                ul {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: all ease 0.4s;
+                    &.show {
+                        max-height: 999px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.single-woncep_menu_item,
+.mega-menu {
+  .elementor-icon-list-items {
+      li.elementor-icon-list-item {
+          min-width: unset !important;
+
+          a:not(.elementor-button-link) {
+              width: unset !important;
+              padding: 0;
+          }
+      }
+  }
+
+  .elementor-image-box-wrapper {
+      a:not(.elementor-button-link) {
+          width: unset !important;
+      }
+  }
+}

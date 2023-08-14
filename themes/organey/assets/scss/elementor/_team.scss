@@ -1,0 +1,118 @@
+.elementor-widget-container{
+    .elementor-teams-wrapper{
+        line-height: 1.5em;
+        .team-image{
+            display: inline-block;
+            position: relative;
+            margin-bottom: 13px;
+            img{
+                margin-bottom: 0;
+            }
+        }
+        .team-icon-socials{
+            opacity: 0;
+            transition: all 0.3s ease;
+            position: absolute;
+            background: white;
+            transform: translateY(-35px);
+        }
+        .team-name{
+            @include opal-color(heading);
+            font-size: 20px;
+            margin-bottom: 10px;
+            a{
+                @include opal-color(heading);
+            }
+            a:hover{
+                @include opal-color(primary);
+            }
+        }
+        .team-name:hover{
+            @include opal-color(primary);
+        }
+
+        .team-job{
+            @include opal-color(light);
+            font-size: 14px;
+        }
+
+        .team-icon-socials{
+            ul{
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                margin: 0;
+                li.social{
+                    text-align: center;
+                    margin: 0 5px;
+                    a{
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size: 16px;
+                    }
+                    a:hover{
+                        @include opal-border-color(primary);
+                        @include opal-color(primary);
+                        transition: all 0.3s ease;
+                    }
+                }
+                li.social:hover{
+
+                }
+            }
+        }
+
+        .team-description{
+            @include opal-color(body);
+            font-weight: 500;
+        }
+        &:hover{
+            .team-icon-socials{
+                transform: translateY(-50px);
+                opacity: 1;
+            }
+        }
+    }
+}
+.elementor-teams-layout-social-right{
+    .elementor-widget-container{
+        .elementor-teams-wrapper{
+            .team-icon-socials{
+                right: 0;
+                ul{
+                    justify-content: flex-end;
+                    margin: 0 -5px;
+                }
+            }
+        }
+    }
+}
+.elementor-teams-layout-social-center{
+    .elementor-widget-container{
+        .elementor-teams-wrapper{
+            .team-icon-socials{
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                ul{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+.elementor-teams-layout-social-left{
+    .elementor-widget-container{
+        .elementor-teams-wrapper{
+            .team-icon-socials{
+                left: 0;
+                ul{
+                    justify-content: flex-start;
+                    margin: 0 -5px;
+                }
+            }
+        }
+    }
+}

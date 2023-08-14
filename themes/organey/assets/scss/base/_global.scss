@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+.site {
+    overflow-x: hidden;
+}
+
+.site-content,
+.header-widget-region {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@each $opal-color in map-keys($opal-colors) {
+    $color: map_get($opal-colors, $opal-color);
+    .bg-#{$opal-color} {
+        @include opal-background-color(#{$opal-color});
+    }
+
+    .shape-#{$opal-color} {
+        .elementor-shape-fill {
+            @include opal-fill-color(#{$opal-color});
+        }
+    }
+
+    .color-#{$opal-color} {
+        @include opal-color(#{$opal-color});
+    }
+
+    .outline-#{$opal-color} {
+        @include opal-outline-color(#{$opal-color});
+    }
+
+    .bd-#{$opal-color} {
+        @include opal-border-color(#{$opal-color});
+    }
+
+    .bd-t-#{$opal-color} {
+        @include opal-border-top-color(#{$opal-color});
+    }
+
+    .bd-b-#{$opal-color} {
+        @include opal-border-bottom-color(#{$opal-color});
+    }
+
+    .bd-r-#{$opal-color} {
+        @include opal-border-right-color(#{$opal-color});
+    }
+
+    .bd-l-#{$opal-color} {
+        @include opal-border-left-color(#{$opal-color});
+    }
+}
+
+.lazyloaded {
+    transition: all .3s !important;
+}
+
+#page {
+    .site-content {
+        margin-top: ms(7);
+        margin-bottom: ms(4);
+        @include susy-media(max-width $tablet - 1) {
+            margin-top: ms(2);
+            margin-bottom: ms(2);
+        }
+
+        body.home &, body.page-template-template-homepage & {
+            margin-top: 0;
+        }
+    }
+
+    .organey-breadcrumb {
+        body.home & {
+            display: none;
+        }
+    }
+}
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+.hp-move-up {
+    animation-name: opalMoveUp;
+    -moz-animation-name: opalMoveUp;
+    -webkit-animation-name: opalMoveUp;
+}
+
+@include keyframes(opalMoveUp) {
+    from {
+        -webkit-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+
+.hp-move-down {
+    animation-name: opalMoveDown;
+    -moz-animation-name: opalMoveDown;
+    -webkit-animation-name: opalMoveDown;
+}
+
+@include keyframes(opalMoveDown) {
+    from {
+        -webkit-transform: translateY(-100px);
+        -ms-transform: translateY(-100px);
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.hp-move-left {
+    animation-name: opalMoveLeft;
+    -moz-animation-name: opalMoveLeft;
+    -webkit-animation-name: opalMoveLeft;
+}
+
+@include keyframes(opalMoveLeft) {
+    from {
+        -webkit-transform: translateX(100px);
+        -ms-transform: translateX(100px);
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+.hp-move-right {
+    animation-name: opalMoveRight;
+    -moz-animation-name: opalMoveRight;
+    -webkit-animation-name: opalMoveRight;
+}
+
+@include keyframes(opalMoveRight) {
+    from {
+        -webkit-transform: translateX(-100px);
+        -ms-transform: translateX(-100px);
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.hp-scale-up {
+    animation-name: opalScaleUp;
+    -moz-animation-name: opalScaleUp;
+    -webkit-animation-name: opalScaleUp;
+}
+
+@include keyframes(opalScaleUp) {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(.6);
+        -ms-transform: scale(.6);
+        transform: scale(.6);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.clearfix {
+    @include clearfix();
+}

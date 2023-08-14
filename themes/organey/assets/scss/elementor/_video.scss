@@ -1,0 +1,26 @@
+.elementor-video-popup{
+    display: inline-flex;
+    align-items: center;
+}
+
+.elementor-video-wrapper {
+    text-align: center;
+}
+
+.elementor-video-popup{
+    @include transition(all 0.3s ease);
+    padding: 28px 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.elementor-video-icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    @include transition(all 0.3s ease);
+    i {
+        font-size: 24px;
+        @include opal-color(heading);
+    }
+}

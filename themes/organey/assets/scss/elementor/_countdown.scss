@@ -1,0 +1,62 @@
+.elementor-widget-organey-countdown {
+    .elementor-organey-countdown {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .elementor-countdown-item {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 100%;
+
+    }
+
+    &.countdown-style-1 {
+        .elementor-countdown-item {
+            font-size: 24px;
+            font-weight: 600;
+
+            &:not(:last-child) {
+                &:after {
+                    content: ':';
+                    margin: 0 5px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    &.countdown-style-2 {
+        .elementor-countdown-item {
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 16px;
+
+            &:not(:last-child) {
+                &:after {
+                    content: ':';
+                    position: absolute;
+                    top: 15px;
+                    right: 0;
+                    @include opal-color(primary);
+                }
+            }
+
+            .elementor-countdown-digits {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .elementor-countdown-label {
+                font-size: 18px;
+            }
+        }
+    }
+}

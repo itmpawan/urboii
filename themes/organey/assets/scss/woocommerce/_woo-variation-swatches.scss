@@ -1,0 +1,18 @@
+.woo-variation-swatches-stylesheet-enabled {
+    &.woo-variation-swatches-style-squared {
+        .variable-items-wrapper {
+            .variable-item {
+                border-radius: 0px;
+
+                &.button-variable-item {
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                    height: auto;
+                    .variable-item-span {
+                        min-width: 57px;
+                    }
+                }
+            }
+        }
+    }
+}

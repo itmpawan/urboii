@@ -1,0 +1,55 @@
+table {
+	border-spacing: 0;
+	width: 100%;
+	border-collapse: collapse;
+
+	caption {
+		padding: 1em 0;
+		font-weight: 600;
+	}
+
+	td,
+	th {
+		padding: 1em ms(2);
+		text-align: left;
+		vertical-align: top;
+		word-break: break-all;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	th {
+		font-weight: 600;
+	}
+
+	thead {
+		th {
+			padding: ms(2);
+			vertical-align: middle;
+		}
+	}
+
+	tbody {
+		h2 {
+			font-size: 1em;
+			letter-spacing: normal;
+			font-weight: normal;
+
+			a {
+				font-weight: normal;
+			}
+		}
+	}
+
+	&:not(.shop_table) {
+		td,
+		th {
+			.entry-content & {
+				border: 1px solid;
+				@include opal-border-color(border);
+			}
+		}
+	}
+}

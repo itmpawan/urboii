@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/OpenSans-Normal",
+        "bold": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/OpenSans-Bold",
+        "italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/Segoe-Normal",
+        "bold": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/Segoe-Bold",
+        "italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/Segoe-Italic",
+        "bold_italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/RobotoSlab-Normal",
+        "bold": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/RobotoSlab-Bold",
+        "italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/currencies",
+        "bold": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/currencies",
+        "italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/currencies",
+        "bold_italic": "\/Applications\/MAMP\/htdocs\/dev\/urboii\/wp-content\/uploads\/wpo_wcpdf_939eed49696a9b3252ca8da017c378f9\/fonts\/currencies"
+    }
+}

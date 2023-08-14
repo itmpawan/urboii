@@ -1,0 +1,175 @@
+/*!
+Theme Name:   Organey
+Theme URI:    https://demo.leebrosus.com/organey/
+Author:       HP
+Author URI:   https://leebrosus.com/
+Description:  Organey is an elegant and attractive WooCommerce WordPress Theme for product landing page purposes. Organey integrates with the best eCommerce solution - WooCommerce plugin, so you can sell anything online easily. You can use Organey as a shopping website, or a showcase website for your stunning products.
+Version:      2.9.0
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  organey
+Tags:         one product, single product, product launch page, landing page, product one page, responsive, clean, creative, multipurpose, modern, ecommerce, woocommerce, wordpress, elementor, marketing
+*/
+// Bourbon
+// See: https://www.bourbon.io/docs/latest/
+@import 'bourbon';
+// Susy
+// Susy grid system. See: http://oddbird.net/susy/docs/
+@import 'susy';
+// Vendors
+// External libraries and frameworks.
+@import 'vendors/modular-scale';
+// Utilities
+// Sass tools and helpers used across the project.
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'icons/mixin';
+@import "utils/colors";
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+	1.1 Typography
+	1.2 Global styles
+	1.3 Icons
+2.0 Header
+	2.1 Main Naivgation
+	2.2 Breadcrumb
+3.0 Main content area
+	3.1 Content (posts etc)
+4.0 Footer
+5.0 Alignment
+6.0 Accessiblity
+7.0 Clearing
+8.0 Tables
+9.0 404 Styles
+10.0 Comments
+11.0 Forms
+12.0 Media
+	12.1 Galleries
+13.0 Captions
+14.0 Pagination
+15.0 Widgets
+16.0 Utilities
+--------------------------------------------------------------*/
+/*-------------------------------------------------------------
+1.0 Normalize
+normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+@import 'vendors/normalize';
+/*-------------------------------------------------------------
+1.1 Typography
+--------------------------------------------------------------*/
+@import "base/typography";
+/*-------------------------------------------------------------
+1.2 Global styles
+--------------------------------------------------------------*/
+@import "base/global";
+@import "base/grid";
+/*-------------------------------------------------------------
+
+2.0 Header
+--------------------------------------------------------------*/
+@import "base/header";
+/*-------------------------------------------------------------
+2.1 Main Naivgation
+--------------------------------------------------------------*/
+@import "base/main-navigation";
+/*-------------------------------------------------------------
+2.2 Breadcrumb
+--------------------------------------------------------------*/
+@import "base/breadcrumb";
+/*-------------------------------------------------------------
+3.0 Main content area
+--------------------------------------------------------------*/
+@import "base/main-content";
+/*-------------------------------------------------------------
+3.1 Content (post etc)
+--------------------------------------------------------------*/
+@import "base/content";
+@import "base/skeleton";
+@import "content-detail";
+/*-------------------------------------------------------------
+4.0 Footer
+--------------------------------------------------------------*/
+@import "base/footer";
+/*-------------------------------------------------------------
+5.0 Alignment
+--------------------------------------------------------------*/
+@import "base/alignment";
+/*-------------------------------------------------------------
+6.0 Accessibility
+--------------------------------------------------------------*/
+@import "base/accessibility";
+/*-------------------------------------------------------------
+7.0 Clearing
+--------------------------------------------------------------*/
+@import "base/clearning";
+/*-------------------------------------------------------------
+8.0 Tables
+--------------------------------------------------------------*/
+@import "base/tables";
+/*-------------------------------------------------------------
+9.0 404 Styles
+--------------------------------------------------------------*/
+@import "base/404";
+/*-------------------------------------------------------------
+10.0 Comments
+--------------------------------------------------------------*/
+@import "base/comments";
+/*-------------------------------------------------------------
+11.0 Forms
+--------------------------------------------------------------*/
+@import "base/forms";
+/*-------------------------------------------------------------
+12.0 Media
+--------------------------------------------------------------*/
+@import "base/media";
+/*-------------------------------------------------------------
+12.1 Galleries
+--------------------------------------------------------------*/
+@import "base/galleries";
+/*-------------------------------------------------------------
+12.2 Embeds
+--------------------------------------------------------------*/
+@import "base/embeds";
+/*-------------------------------------------------------------
+13.0 Captions
+--------------------------------------------------------------*/
+@import "base/captions";
+/*-------------------------------------------------------------
+14.0 Pagination
+--------------------------------------------------------------*/
+@import "base/pagination";
+/*-------------------------------------------------------------
+15.0 Widgets
+--------------------------------------------------------------*/
+@import "base/widgets";
+/*--------------------------------------------------------------
+16.0 Utilities
+--------------------------------------------------------------*/
+@import 'base/utilities';
+
+/*--------------------------------------------------------------
+19.0 Slick
+--------------------------------------------------------------*/
+@import "vendors/slick/slick";
+@import "vendors/slick/slick-theme";
+/*--------------------------------------------------------------
+19.1 Tooltipster
+--------------------------------------------------------------*/
+@import "vendors/tooltipster";
+/*--------------------------------------------------------------
+19.2 Fullpage
+--------------------------------------------------------------*/
+@import "vendors/fullpage";
+/*--------------------------------------------------------------
+20.0 Magnific Popup
+--------------------------------------------------------------*/
+@import "vendors/magnific-popup";
+@import "base/side-overlay";
+/*--------------------------------------------------------------
+21.0 Icons
+--------------------------------------------------------------*/
+@import "icons/icons";

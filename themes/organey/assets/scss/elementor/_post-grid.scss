@@ -1,0 +1,7 @@
+
+.elementor-widget-organey-post-grid {
+    .column-item {
+        margin-bottom: $gutter-width;
+        @include transition(all .4s ease);
+    }
+}
